@@ -1,0 +1,94 @@
+{% load staticfiles %}
+{% include 'header.html' %}
+</head>
+{% include 'navi.html' %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron background-color-primary-accent">
+    <div class="container">
+        <div class="gwas-circle">
+            <img src="{% static 'search/GWAS_Catalog_circle_178x178.png' %}">
+        </div>
+        <div>
+            <h1>DSMND</h1>
+
+            <h3>The Dabase of Somatic Mutations in Non-cancer Diseases</h3>
+
+            <!-- search box goes here -->
+            <div class="input-group">
+                <form action='search' method='get' class="input-group">
+                <input class="form-control" placeholder="Search the database" id="search-box" type="text" name='query'>
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" id="search-button">Search
+                    </button>
+                </span>
+                </form>
+            </div>
+            <div>
+            Advanced search:<a href='/menu/'>Disease categories</a>
+            </div>
+            <div class="examples">
+                Examples:
+                <a href="search?query=Rett%20syndrome">Rett syndrome (Disease)</a>,
+                <a href="search?query=10:102566089-102566289">10:102566089-102566289 (Coordinate)</a>,
+                <a href="search?query=MECP2">MECP2 (Gene symbol)</a>,
+                <a href="search?query=4204">4204 (Entrez gene id)</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <a href="https://www.ebi.ac.uk/gwas/docs/about">
+            <div style="" class="col-md-4 toplevel-view">
+                <h2 class="flaticon-information9 color-primary-bold">About</h2>
+
+                <p>A description of the GWAS Catalog, including background and citation information.</p>
+            </div>
+        </a>
+        <a href="/browser/human-hg19">
+            <div style="" class="col-md-4 toplevel-view">
+                <h2 class="flaticon-image11 color-primary-bold">Browse</h2>
+
+                <p>An interactive visualisation of all SNP-trait associations with genome-wide significance
+                   (p≤5 x10<sup>-8</sup>). </p>
+            </div>
+        </a>
+        <a href="https://www.ebi.ac.uk/gwas/docs/downloads">
+            <div class="col-md-4 toplevel-view">
+                <h2 class="flaticon-mailbox2 color-primary-bold">Tools</h2>
+
+                <p>Including a full copy of the GWAS Catalog in spreadsheet format.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="row">
+        <a href="https://www.ebi.ac.uk/gwas/s">
+            <div class="col-md-4 toplevel-view">
+                <h2 class="flaticon-search11 color-primary-bold">Statistics</h2>
+
+                <p>You can search the Catalog in a number of ways, including by trait, SNP identifier, study and
+                   gene. </p>
+            </div>
+        </a>
+        <a href="/submit">
+            <div class="col-md-4 toplevel-view">
+                <h2 class="flaticon-statistics color-primary-bold">Submission</h2>
+
+                <p>A full description of the Catalog eligibility criteria and methods.</p>
+            </div>
+        </a>
+        <a href="https://www.ebi.ac.uk/gwas/docs/ontology">
+            <div class="col-md-4 toplevel-view">
+                <h2 class="flaticon-owl3 color-primary-bold">Download</h2>
+
+                <p>Details of the ontology representation of GWAS Catalog traits.</p>
+            </div>
+        </a>
+    </div>
+
+    <hr>
+
+</div>
+{% include 'footer.html' %}

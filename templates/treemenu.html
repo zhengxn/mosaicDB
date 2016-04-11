@@ -1,0 +1,52 @@
+{% load staticfiles %}
+{% include 'header.html' %}
+<script>
+var MEDIA_URL = "/media/";
+</script>
+   <script type="text/javascript" src="{% static 'search/simpletreemenu.js' %}"></script>
+   <link rel="stylesheet" type="text/css" href="{% static 'search/simpletree.css' %}" />
+   <script src="{% static 'search/sorttable.js' %}"></script>
+   <link href="{% static 'search/my.css' %}" rel="stylesheet">
+   <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+{% include 'navi.html' %}
+<script type="text/javascript" src="{% static 'search/my.css' %}"></script> 
+
+<div class="menu">
+<h4 align='center'><font size=6>Disease ontology tree</font></h4>
+<div align='center'>
+<a href="javascript:ddtreemenu.flatten('dotree', 'expand')">Expand All</a> | <a href="javascript:ddtreemenu.flatten('dotree', 'contact')">Contact All</a>
+</div>
+</br>
+<ul id="dotree" class="treeview">
+{{ menu|safe }}
+</ul>
+</div>
+
+<div id="info" class="menu2"></br></br><h4>Select disease from the Disease Ontology tree.</br> The description and variants will be shown below.</h4></p></div>
+
+<script src="{% static 'search/jquery.min.js' %}"></script>
+<script>
+
+    ddtreemenu.createTree("dotree", true)
+    ddtreemenu.flatten('dotree', 'contact')
+
+    $(document).ready(function(){
+      $('#dotree li').click(function(){
+           var id=this.id
+            $("#info").empty();
+              $('#info').html('&nbsp;').load('/menulist?doid=' + id);
+      });
+
+    });
+
+</script>
+
+</body>
+{% include 'footer.html' %}
+

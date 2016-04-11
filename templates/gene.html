@@ -1,0 +1,88 @@
+{% load staticfiles %}
+{% load replace %}
+{% include 'header.html' %}
+   <script src="{% static 'search/sorttable.js' %}"></script>
+   <link href="{% static 'search/my.css' %}" rel="stylesheet">
+   <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+{% include 'navi.html' %}
+<div class='tabs'>
+<h1> {{ gene.symbol }} (Entrez ID: {{ gene.entrez }})</h1>
+    <table class="bordered">
+        <tr>
+            <th>Entrez Gene ID</th>
+            <td><a href="http://www.ncbi.nlm.nih.gov/gene?term={{ gene.entrez }}">{{ gene.entrez }}</a></td>
+        </tr>
+        <tr>
+            <th>Official Gene Symbol</th>
+            <td>{{ gene.symbol }}</td>
+        </tr>
+        <tr>
+            <th>Full name</th>
+            <td>{{ gene.fullname }}</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>{{ gene.location }}</td>
+        </tr>
+        <tr>
+            <th>Other ids</th>
+            <td>
+            {% for db, id in dblinks.items %}
+            {{ db }} : <a href={{ id.1 }} target="_blank">{{ id.0 }}</a></br>
+            {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <th>Other names</th>
+            <td>
+                {% for name in names %}
+                    {% if forloop.last %}
+                        {{ name }}
+                    {% else %}
+                        {{ name }},
+                    {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <th>Summary</th>
+            <td>{{ gene.summary }}</td>
+        </tr>
+    </table>
+</div>
+<div class="tab2">
+<h1>Variants</h1>
+    <p>Found {{ variants|length }} variant{{ variants|pluralize }} in this database.</p>
+    <table class="sortable bordered search" id="table" >
+        <tr>
+            <th>Variant ID</th>
+            <th>Entrez Gene ID</th>
+            <th>Gene</th>
+            <th>Chromsome</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Disease</th>
+            <th>Method</th>
+        </tr>
+        {% for variant in variants %}
+        <tr>
+            <td><a href='/var/{{ variant.varid }}'> {{ variant.varid }}</a></td>
+            <td>{{ variant.entrez.entrez }}
+            <td>{{ variant.gene }}</td>
+            <td>{{ variant.chrom }}</td>
+            <td>{{ variant.start }}</td>
+            <td>{{ variant.end }}</td>
+            <td>{% replace search="_" replacement=" " %}{{ variant.disease }}{% endreplace %}</td>
+            <td>{{ variant.method }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+</body>
+{% include 'footer.html' %}

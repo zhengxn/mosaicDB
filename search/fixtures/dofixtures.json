@@ -1,0 +1,2577 @@
+[
+  {
+    "model": "search.doinfo",
+    "pk": 1,
+    "fields": {
+      "doid": "DOID:8712",
+      "name": "neurofibromatosis",
+      "defi": "A herpes simplex that results_in infection located_in genital system, or located_in rectum, has_material_basis_in Human herpesvirus 1 or has_material_basis_in Human herpesvirus 2, which is transmitted_by sexual contact. The infection has_symptom sores, has_symptom fever, and has_symptom swollen glands. [url:http://www.cdc.gov/std/herpes/stdfact-herpes.htm]",
+      "omim": "OMIM:101000+OMIM:162200+OMIM:162210+OMIM:162260+OMIM:162270",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 2,
+    "fields": {
+      "doid": "DOID:0050691",
+      "name": "branchiooculofacial syndrome",
+      "defi": "An autosomal dominant disease that is characterized by low birth weight and growth retardation, bilateral branchial clefts. [url:http://ghr.nlm.nih.gov/condition/branchio-oculo-facial-syndrome, url:http://www.ncbi.nlm.nih.gov/books/NBK55063/, url:http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&Expert=1297, url:http://www.rarediseases.org/rare-disease-information/rare-diseases/byID/714/viewAbstract]",
+      "omim": "OMIM:113620",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 3,
+    "fields": {
+      "doid": "DOID:2476",
+      "name": "hereditary spastic paraplegia",
+      "defi": "A paraplegia that is characterized by progressive stiffness and contraction (spasticity) in the lower limbs. [url:http://en.wikipedia.org/wiki/Familial_spastic_paraplegia]",
+      "omim": "OMIM:182600+OMIM:182601+OMIM:270685+OMIM:270700+OMIM:270750+OMIM:270800+OMIM:275900+OMIM:300266+OMIM:300750+OMIM:312920+OMIM:600146+OMIM:600363+OMIM:601162+OMIM:603563+OMIM:604187+OMIM:604360+OMIM:604805+OMIM:605229+OMIM:605280+OMIM:607152+OMIM:607259+OMIM:607584+OMIM:608220+OMIM:609041+OMIM:609195+OMIM:609340+OMIM:609727+OMIM:610244+OMIM:610250+OMIM:610357+OMIM:611225+OMIM:611252+OMIM:611945+OMIM:612020+OMIM:612319+OMIM:612335+OMIM:612539+OMIM:612936+OMIM:613096+OMIM:613162+OMIM:613206+OMIM:613364+OMIM:613647+OMIM:613744+OMIM:614066+OMIM:614067+OMIM:614409+OMIM:614898+OMIM:615030+OMIM:615031+OMIM:615033+OMIM:615035+OMIM:615043+OMIM:615625+OMIM:615658+OMIM:615683+OMIM:615685+OMIM:615686",
+      "is_a": "DOID:607"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 4,
+    "fields": {
+      "doid": "DOID:4674",
+      "name": "androgen insensitivity syndrome",
+      "defi": "A sex differentiation disease that is characterized by the partial or complete inability of the cell to respond to androgens in individuals with a karyotype of 46,XY resulting in female physical traits but male genetic makeup. [url:http://en.wikipedia.org/wiki/Androgen_insensitivity_syndrome, url:http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0002163/, url:http://www.omim.org/entry/300068?search=300068&highlight=300068]",
+      "omim": "OMIM:300068",
+      "is_a": "DOID:1923"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 5,
+    "fields": {
+      "doid": "DOID:12259",
+      "name": "hemophilia B",
+      "defi": "An inherited blood coagulation disease that has_material_basis_in Factor IX deficiency, which makes coagulation much more prolonged. The disease is inherited as an X-linked recessive trait. [url:http://www.nlm.nih.gov/medlineplus/ency/article/000539.htm]",
+      "omim": "OMIM:306900",
+      "is_a": "DOID:2214"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 6,
+    "fields": {
+      "doid": "DOID:0080014",
+      "name": "chromosomal disease",
+      "defi": "A genetic disease that has_material_basis_in extra, missing, or re-arranged chromosomes. [url:http://en.wikipedia.org/wiki/Chromosome_abnormality, url:http://www.genome.gov/11508982#al-5, url:http://www.rarechromo.org/html/chromosomesanddisorders.asp]",
+      "omim": "",
+      "is_a": "DOID:630"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 7,
+    "fields": {
+      "doid": "DOID:0050463",
+      "name": "campomelic dysplasia",
+      "defi": "An osteochondrodysplasia that has_material_basis_in a mutation in chromosome 17 which results_in bowing in the located_in tibia or located_in femur. [url:http://en.wikipedia.org/wiki/Campomelic_dysplasia, url:http://ghr.nlm.nih.gov/condition/campomelic-dysplasia, url:http://www.healthline.com/galecontent/campomelic-dysplasia-1]",
+      "omim": "OMIM:114290",
+      "is_a": "DOID:2256"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 8,
+    "fields": {
+      "doid": "DOID:12449",
+      "name": "aplastic anemia",
+      "defi": "An anemia that is characterized by a deficiency of red blood cells, white blood cells and platelets produced by bone marrow. [url:http://en.wikipedia.org/wiki/Aplastic_anemia, url:http://www.nhlbi.nih.gov/health/health-topics/topics/aplastic/]",
+      "omim": "OMIM:609135",
+      "is_a": "DOID:2355"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 9,
+    "fields": {
+      "doid": "DOID:0050646",
+      "name": "distal arthrogryposis",
+      "defi": "A muscle tissue disease characterized by congenital joint contractures of hand and feet. [url:http://en.wikipedia.org/wiki/Arthrogryposis]",
+      "omim": "OMIM:108120+OMIM:108145+OMIM:108200+OMIM:114300+OMIM:121050+OMIM:121070+OMIM:158300+OMIM:178110+OMIM:187370+OMIM:193700+OMIM:601680+OMIM:609128+OMIM:614335+OMIM:615065",
+      "is_a": "DOID:66"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 10,
+    "fields": {
+      "doid": "DOID:1287",
+      "name": "cardiovascular system disease",
+      "defi": "A disease of anatomical entity which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis. [url:http://en.wikipedia.org/wiki/Circulatory_system]",
+      "omim": "",
+      "is_a": "DOID:7"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 11,
+    "fields": {
+      "doid": "DOID:12930",
+      "name": "dilated cardiomyopathy",
+      "defi": "An intrinsic cardiomyopathy that results in damage to the myocardium causing the heart to pump blood inefficiently and characterized by an enlarged heart. [url:http://en.wikipedia.org/wiki/Dilated_cardiomyopathy]",
+      "omim": "OMIM:115200+OMIM:300069+OMIM:302045+OMIM:600884+OMIM:601154+OMIM:601493+OMIM:601494+OMIM:604145+OMIM:604288+OMIM:604765+OMIM:605362+OMIM:605582+OMIM:606685+OMIM:607482+OMIM:607487+OMIM:608569+OMIM:609909+OMIM:609915+OMIM:611407+OMIM:611615+OMIM:611878+OMIM:611879+OMIM:611880+OMIM:612158+OMIM:612877+OMIM:613122+OMIM:613172+OMIM:613252+OMIM:613286+OMIM:613424+OMIM:613426+OMIM:613642+OMIM:613694+OMIM:613697+OMIM:613740+OMIM:613881+OMIM:614672+OMIM:615184+OMIM:615235+OMIM:615916",
+      "is_a": "DOID:0060036"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 12,
+    "fields": {
+      "doid": "DOID:1206",
+      "name": "Rett syndrome",
+      "defi": "A pervasive developmental disease that is a neurological and developmental disorder that mostly occurs in females and is caused_by a mutation on the MECP2 gene on the X chromosome. Infants with Rett syndrome seem to grow and develop normally at first, but then stop developing and even lose skills and abilities. [url:http://www.nichd.nih.gov/health/topics/rett_syndrome.cfm]",
+      "omim": "OMIM:312750+OMIM:613454",
+      "is_a": "DOID:0060040"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 13,
+    "fields": {
+      "doid": "DOID:10652",
+      "name": "Alzheimer's disease",
+      "defi": "A tauopathy that results in progressive memory loss, impaired thinking, disorientation, and changes in personality and mood starting and leads in advanced cases to a profound decline in cognitive and physical functioning and is marked histologically by the degeneration of brain neurons especially in the cerebral cortex and by the presence of neurofibrillary tangles and plaques containing beta-amyloid. It is characterized by memory lapses, confusion, emotional instability and progressive loss of mental ability. [ls:IEDB, url:http://en.wikipedia.org/wiki/Alzheimer%27s_disease, url:http://www.merriam-webster.com/medical/alzheimer%27s%20disease, url:http://www.nia.nih.gov/alzheimers/publication/alzheimers-disease-fact-sheet]",
+      "omim": "OMIM:104300+OMIM:104310+OMIM:300756+OMIM:502500+OMIM:602096+OMIM:604154+OMIM:605526+OMIM:606187+OMIM:606889+OMIM:607116+OMIM:607822+OMIM:608907+OMIM:609636+OMIM:609790+OMIM:611073+OMIM:611152+OMIM:611154+OMIM:611155+OMIM:615080+OMIM:615590+OMIM:615711",
+      "is_a": "DOID:680"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 14,
+    "fields": {
+      "doid": "DOID:65",
+      "name": "connective tissue disease",
+      "defi": "A musculoskeletal system disease that affects tissues such as skin, tendons, and cartilage. [url:http://www.niams.nih.gov/Health_Info/Scleroderma/default.asp]",
+      "omim": "",
+      "is_a": "DOID:17"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 15,
+    "fields": {
+      "doid": "DOID:3265",
+      "name": "chronic granulomatous disease",
+      "defi": "A phagocyte bactericidal dysfunction characterized by an inability to resist repeated infectious diseases and a tendency to develop chronic inflammation. Life-threatening recurrent fungal and bacterial infections affecting the skin, lungs, and bones may occur along with swollen areas of inflamed tissues known as granulomas that can be widely distributed. [url:http://en.wikipedia.org/wiki/Chronic_granulomatous_disease, url:http://ghr.nlm.nih.gov/condition/chronic-granulomatous-disease, url:https://www.rarediseases.org/rare-disease-information/rare-diseases/byID/682/viewAbstractare-diseases/byID/682/viewAbstract]",
+      "omim": "OMIM:138990+OMIM:233690+OMIM:233700+OMIM:233710+OMIM:306400+OMIM:613960",
+      "is_a": "DOID:3262"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 16,
+    "fields": {
+      "doid": "DOID:2115",
+      "name": "B cell deficiency",
+      "defi": "A primary immunnodeficiency disease that is caused by a lack of infection-fighting antibody producing B cells (immunoglobulins) or B cells that are not functioning properly. [url:http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2601718/pdf/nihms57213.pdf, url:http://www.nichd.nih.gov/publications/pubs/primary_immuno.cfm#WhatisPrimaryImmunodeficiency]",
+      "omim": "",
+      "is_a": "DOID:612"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 17,
+    "fields": {
+      "doid": "DOID:0050466",
+      "name": "Loeys-Dietz syndrome",
+      "defi": "An osteochondrodysplasia that has_material_basis_in a mutation in chromosome 17 which results_in bowing in the located_in tibia or located_in femur. [url:http://en.wikipedia.org/wiki/Campomelic_dysplasia, url:http://ghr.nlm.nih.gov/condition/campomelic-dysplasia, url:http://www.healthline.com/galecontent/campomelic-dysplasia-1]",
+      "omim": "OMIM:608967+OMIM:609192+OMIM:610168+OMIM:610380+OMIM:613795+OMIM:614816",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 18,
+    "fields": {
+      "doid": "DOID:17",
+      "name": "musculoskeletal system disease",
+      "defi": "A disease of anatomical entity that occurs in the muscular and/or skeletal system. [url:http://en.wikipedia.org/wiki/Human_musculoskeletal_system#Diseases_and_disorders]",
+      "omim": "",
+      "is_a": "DOID:7"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 19,
+    "fields": {
+      "doid": "DOID:10579",
+      "name": "leukodystrophy",
+      "defi": "A cerebral degeneration characterized by dysfunction of the white matter of the brain. [url:http://en.wikipedia.org/wiki/Leukodystrophy]",
+      "omim": "",
+      "is_a": "DOID:1443"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 20,
+    "fields": {
+      "doid": "DOID:9352",
+      "name": "type 2 diabetes mellitus",
+      "defi": "A diabetes mellitus that involves high blood glucose resulting from cells fail to use insulin properly. [url:http://en.wikipedia.org/wiki/Diabetes, url:http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2]",
+      "omim": "OMIM:125853+OMIM:601283+OMIM:601407+OMIM:603694+OMIM:608036",
+      "is_a": "DOID:9351"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 21,
+    "fields": {
+      "doid": "DOID:0050469",
+      "name": "Costello syndrome",
+      "defi": "A syndrome that is characterized by an accumulation of protein-rich fluid (lymph) in the soft layers of tissue under the skin resulting in pleural effusions, lymphedema (due to lymphatic hypoplasia) and yellow dystrophic nails hat lack a cuticle, grow slowly, and are loose or detached. [url:http://rarediseases.info.nih.gov/gard/184/yellow-nail-syndrome/resources/1, url:http://www.rarediseases.org/rare-disease-information/rare-diseases/byID/834/viewAbstract]",
+      "omim": "OMIM:218040",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 22,
+    "fields": {
+      "doid": "DOID:0050013",
+      "name": "carbohydrate metabolism disease",
+      "defi": "An acquired metabolic disease that is characterized by abnormal carbohydrate metabolism. [url:http://www.nlm.nih.gov/medlineplus/metabolicdisorders.html]",
+      "omim": "",
+      "is_a": "DOID:0060158"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 23,
+    "fields": {
+      "doid": "DOID:0050701",
+      "name": "electroclinical syndrome",
+      "defi": "An epilepsy syndrome that is a group of clinical entities showing a cluster of electro-clinical characteristics, classified according to age at onset, cognitive and developmental antecedents and consequences, motor and sensory examinations, EEG features, provoking or triggering factors, and patterns of seizure occurrence with respect to sleep. [url:http://www.ice-epilepsy.org/new-ice-terminology-from-ilae.html, url:http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3267655/table/T1/, url:http://www.ncbi.nlm.nih.gov/pubmed/20196795]",
+      "omim": "",
+      "is_a": "DOID:1826"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 24,
+    "fields": {
+      "doid": "DOID:589",
+      "name": "congenital hemolytic anemia",
+      "defi": "An organ system cancer located_in the retroperitoneal space that is manifested in retroperitoneal space in the abdominal cavity behind the peritoneum. [url:http://en.wikipedia.org/wiki/Retroperitoneal_space]",
+      "omim": "",
+      "is_a": "DOID:583"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 25,
+    "fields": {
+      "doid": "DOID:0050702",
+      "name": "neonatal period electroclinical syndrome",
+      "defi": "An electroclinical syndrome with onset in the neonatal period less than 44 weeks of gestational age. [JA:Epilepsy Genetics Kiel, url:http://www.ncbi.nlm.nih.gov/pubmed/20196795, url:http://www.ncbi.nlm.nih.gov/pubmed/22182677]",
+      "omim": "",
+      "is_a": "DOID:0050701"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 26,
+    "fields": {
+      "doid": "DOID:11723",
+      "name": "Duchenne muscular dystrophy",
+      "defi": "A muscular dystrophy that has_material_basis_in X-linked disease caused by mutations in the DMD gene found on the X chromosome. It is characterized by rapidly progressing muscle weakness and muscle atrophy initially involving the lower extremities and eventually affecting the whole body. It affects males whereas females can be carriers. The symptoms start before the age of six and may appear at infancy. [url:http://en.wikipedia.org/wiki/Duchenne_muscular_dystrophy, url:http://omim.org/entry/300377, url:http://www.genome.gov/19518854]",
+      "omim": "OMIM:310200",
+      "is_a": "DOID:9884"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 27,
+    "fields": {
+      "doid": "DOID:0050703",
+      "name": "infancy electroclinical syndrome",
+      "defi": "An electroclinical syndrome with onset in infancy occurring between birth and one year of age. [JA:Epilepsy Genetics Kiel, url:http://www.ncbi.nlm.nih.gov/pubmed/20196795]",
+      "omim": "",
+      "is_a": "DOID:0050701"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 28,
+    "fields": {
+      "doid": "DOID:3261",
+      "name": "Job's syndrome",
+      "defi": "A vascular disease that is characterized by a restriction in blood supply to tissues. [url:http://en.wikipedia.org/wiki/Ischemia]",
+      "omim": "OMIM:147060",
+      "is_a": "DOID:2959"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 29,
+    "fields": {
+      "doid": "DOID:627",
+      "name": "severe combined immunodeficiency",
+      "defi": "A combined T cell and B cell immunodeficiency that is caused by a defect in several genes encoding for B and T lymphocytes resulting in individuals with non-functional immune systems. [url:http://www.merriam-webster.com/medlineplus/severe%20combined%20immunodeficiency, url:http://www.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=gnd&part=severecombinedimmunodeficiency, url:http://www.scid.net/]",
+      "omim": "",
+      "is_a": "DOID:628"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 30,
+    "fields": {
+      "doid": "DOID:0060292",
+      "name": "X-linked chondrodysplasia punctata",
+      "defi": "A syndrome characterized by craniofacial, neurologic, limb and ocular abnormalities. [PMID:12021949, url:http://ghr.nlm.nih.gov/condition/oculodentodigital-dysplasia, url:https://en.wikipedia.org/wiki/Oculodentodigital_dysplasia]",
+      "omim": "OMIM:302950+OMIM:302960",
+      "is_a": "DOID:2581"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 31,
+    "fields": {
+      "doid": "DOID:10588",
+      "name": "adrenoleukodystrophy",
+      "defi": "A leukodystrophy that disrupts the breakdown of very-long-chain fatty acids resulting in progressive brain damage, failure of the adrenal glands and eventually death. [url:http://en.wikipedia.org/wiki/Adrenoleukodystrophy, url:http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0002165/]",
+      "omim": "OMIM:202370+OMIM:300100",
+      "is_a": "DOID:10579"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 32,
+    "fields": {
+      "doid": "DOID:0050155",
+      "name": "sensory system disease",
+      "defi": "A nervous system disease which is located in a part of the nervous system responsible for processing sensory information that consists of sensory receptors, neural pathways, and parts of the brain involved in sensory perception. Commonly recognized sensory systems are those for vision, hearing, somatic sensation (touch), taste and olfaction (smell). [url:http://en.wikipedia.org/wiki/Sensory_system]",
+      "omim": "",
+      "is_a": "DOID:863"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 33,
+    "fields": {
+      "doid": "DOID:0050709",
+      "name": "Ohtahara syndrome",
+      "defi": "A neonatoal period electroclinical syndrome that is characterized by tonic spasms and partial seizures. [url:http://en.wikipedia.org/wiki/Ohtahara_syndrome, url:http://www.ninds.nih.gov/disorders/ohtahara/ohtahara.htm]",
+      "omim": "OMIM:300088+OMIM:300607+OMIM:300672+OMIM:308350+OMIM:609304+OMIM:612164+OMIM:613402+OMIM:613477+OMIM:613720+OMIM:613721+OMIM:613722+OMIM:614558+OMIM:614959+OMIM:615006+OMIM:615338+OMIM:615473+OMIM:615476",
+      "is_a": "DOID:0050702"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 34,
+    "fields": {
+      "doid": "DOID:1059",
+      "name": "intellectual disability",
+      "defi": "A specific developmental disorder that involves significant limitations both in mental functioning and in adaptive behavior such as communicating, taking care of him or herself, and social skills. [url:http://www.aamr.org/content_96.cfm?navID=20, url:http://www.google.com/url?sa=t&source=web&cd=9&ved=0CGEQFjAI&url=http%3A%2F%2Fwww.nichcy.org%2FDisabilities%2FSpecific%2FPages%2FIntellectualDisability.aspx&rct=j&q=%20Search%20Intellectual%20Disability%3A%20Definition%2C%20Classification%2C%20and%20Systems%20of%20Supports%20&ei=_Y7dTJ-JKoX7lweUy837DA&usg=AFQjCNHf5WD4JW8kvTc901MQ6AUr_mRPpQ&sig2=sV1yzHR9plpkHZMXYtd8iA&cad=rja, url:http://www.nichcy.org/disabilities/specific/pages/intellectualdisability.aspx#WhatisID.aspx]",
+      "omim": "",
+      "is_a": "DOID:0060038"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 35,
+    "fields": {
+      "doid": "DOID:0050445",
+      "name": "X-linked hypophosphatemic rickets",
+      "defi": "A rickets that results has_material_basis in X-linked mutations in the PHEX gene that lead to increased circulating levels of FGF-23, a phosphate-regulating hormone (phosphatonin), that leads to reduced renal phosphate reabsorption and consequently abnormal bone mineralization. [url:http://emedicine.medscape.com/article/922305-overview, url:http://en.wikipedia.org/wiki/X-linked_hypophosphatemia, url:http://www.orpha.net/consor/cgi-bin/Disease_Search.php?lng=EN&data_id=11911&Disease_Disease_Search_diseaseGroup=rickets&Disease_Disease_Search_diseaseType=Pat&Disease%28s%29/group%20of%20diseases=X-linked-hypophosphatemia--X-linked-hypophosphatemic-rickets-&title=X-linked-hypophosphatemia--X-linked-hypophosphatemic-rickets-&search=Disease_Search_Simple]",
+      "omim": "OMIM:300554+OMIM:307800",
+      "is_a": "DOID:10609"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 36,
+    "fields": {
+      "doid": "DOID:0050476",
+      "name": "Barth syndrome",
+      "defi": "A lipid metabolism disorder that has_material_basis_in X-linked inheritance of the tafazzin gene and is characterized by decreased production of an enzyme required to produce cardiolipin. [url:http://en.wikipedia.org/wiki/Barth_syndrome, url:http://rarediseases.info.nih.gov/gard/5890/barth-syndrome/resources/1, url:http://www.ninds.nih.gov/disorders/barth/barth.htm, url:http://www.rarediseases.org/rare-disease-information/rare-diseases/byID/1116/viewAbstract]",
+      "omim": "OMIM:302060",
+      "is_a": "DOID:3146"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 37,
+    "fields": {
+      "doid": "DOID:7",
+      "name": "disease of anatomical entity",
+      "defi": "A disease that manifests in a defined anatomical structure. [DO:wk,ls, URL:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anatomic]",
+      "omim": "",
+      "is_a": "DOID:4"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 38,
+    "fields": {
+      "doid": "DOID:13482",
+      "name": "Proteus syndrome",
+      "defi": "An osteochondrodysplasia that results_in short arms and legs with excess folds of skin. [url:http://emedicine.medscape.com/article/949591-overview, url:http://en.wikipedia.org/wiki/Thanatophoric_dysplasia, url:http://ghr.nlm.nih.gov/condition/thanatophoric-dysplasia]",
+      "omim": "OMIM:176920",
+      "is_a": "DOID:0080015"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 39,
+    "fields": {
+      "doid": "DOID:0080033",
+      "name": "craniometaphyseal dysplasia",
+      "defi": "An osteosclerosis that has_material_basis_in mutations in the ANKH gene which results_in progressive thickening located_in skull and abnormally shaped ends of long bones in the limbs. [url:http://children.webmd.com/craniometaphyseal-dysplasia, url:http://ghr.nlm.nih.gov/condition/craniometaphyseal-dysplasia, url:http://www.rarediseases.org/search/rdbdetail_abstract.html?disname=Craniometaphyseal%20Dysplasia]",
+      "omim": "OMIM:122860+OMIM:123000+OMIM:218300+OMIM:218400+OMIM:614099+OMIM:614378",
+      "is_a": "DOID:4254"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 40,
+    "fields": {
+      "doid": "DOID:896",
+      "name": "metal metabolism disorder",
+      "defi": "An inherited metabolic disorder that involves metabolic disturbances in the processing or distribution of dietary minerals. [url:http://en.wikipedia.org/wiki/Inborn_errors_of_metal_metabolism]",
+      "omim": "",
+      "is_a": "DOID:655"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 41,
+    "fields": {
+      "doid": "DOID:14448",
+      "name": "46 XY gonadal dysgenesis",
+      "defi": "A gonadal dysgenesis that is characterized by a normal 46,XY karyotype along with a progressive loss of germ cells on the developing gonads of an embryo. [url:http://en.wikipedia.org/wiki/XY_gonadal_dysgenesis]",
+      "omim": "OMIM:154230+OMIM:233420+OMIM:300018+OMIM:400044+OMIM:612965+OMIM:613080+OMIM:613762+OMIM:614279",
+      "is_a": "DOID:14447"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 42,
+    "fields": {
+      "doid": "DOID:2861",
+      "name": "congenital nonspherocytic hemolytic anemia",
+      "defi": "A sleep disorder that involves involuntarily grinding or clenching of the teeth while sleeping. [url:http://en.wikipedia.org/wiki/Bruxism]",
+      "omim": "OMIM:206300+OMIM:206400+OMIM:300908+OMIM:613470",
+      "is_a": "DOID:589"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 43,
+    "fields": {
+      "doid": "DOID:0050800",
+      "name": "creatine transporter deficiency",
+      "defi": "A peroxisomal disease that is characterized by hypotonia and seizures in the neonatal period and neurological regression in early infancy. [url:http://www.ncbi.nlm.nih.gov/pubmed/11815777, url:http://www.ncbi.nlm.nih.gov/pubmed/17458872, url:http://www.ncbi.nlm.nih.gov/pubmed/18536048, url:http://www.omim.org/entry/264470, url:http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=EN&Expert=2971]",
+      "omim": "OMIM:300352",
+      "is_a": "DOID:0050798"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 44,
+    "fields": {
+      "doid": "DOID:10595",
+      "name": "Charcot-Marie-Tooth disease",
+      "defi": "A neuromuscular disease that is characterized by a slowly progressive degeneration of the muscles of the foot, lower leg, hand and forearm. [url:https://www.genome.gov/11009201]",
+      "omim": "",
+      "is_a": "DOID:440"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 45,
+    "fields": {
+      "doid": "DOID:628",
+      "name": "combined T cell and B cell immunodeficiency",
+      "defi": "A primary immunodeficiency disease that involves multiple components of the immune system, including both humoral immunity and cell-mediated immunity. [url:http://en.wikipedia.org/wiki/Combined_immunodeficiencies, url:http://rarediseases.info.nih.gov/gard/7628/severe-combined-immunodeficiency/resources/1]",
+      "omim": "OMIM:312863",
+      "is_a": "DOID:612"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 46,
+    "fields": {
+      "doid": "DOID:0050888",
+      "name": "syndromic intellectual disability",
+      "defi": "An intellectual disability that is characterized by the presence of associated medical and behavioral sign and symptoms. [url:http://en.wikipedia.org/wiki/Intellectual_disability]",
+      "omim": "OMIM:300486+OMIM:300860+OMIM:309583",
+      "is_a": "DOID:1059"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 47,
+    "fields": {
+      "doid": "DOID:653",
+      "name": "purine-pyrimidine metabolic disorder",
+      "defi": "An inherited metabolic disorder involving dysfunction of purine and pyrimidine metabolism. [url:http://en.wikipedia.org/wiki/Inborn_errors_of_purine-pyrimidine_metabolism]",
+      "omim": "",
+      "is_a": "DOID:655"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 48,
+    "fields": {
+      "doid": "DOID:3191",
+      "name": "nemaline myopathy",
+      "defi": "A congenital structural myopathy characterized by generally non-progressive muscle weakness of varying severity; certain muscle fibers show the presence of rod-like structures called nemaline bodies. [url:http://en.wikipedia.org/wiki/Nemaline_myopathy, url:http://ghr.nlm.nih.gov/condition/nemaline-myopathy, url:https://www.rarediseases.org/rare-disease-information/rare-diseases/byID/151/viewAbstract]",
+      "omim": "OMIM:161800+OMIM:256030+OMIM:605355+OMIM:609273+OMIM:609284+OMIM:609285+OMIM:610687+OMIM:615348+OMIM:615731+OMIM:616165",
+      "is_a": "DOID:422"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 49,
+    "fields": {
+      "doid": "DOID:12798",
+      "name": "mucopolysaccharidosis",
+      "defi": "A lysosomal storage disease that involves he accumulation of glycosaminoglycans in the tissues and their excretion in the urine. [url:http://en.wikipedia.org/wiki/Mucopolysaccharidosis, url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Mucopolysaccharidosis]",
+      "omim": "OMIM:252700+OMIM:607014",
+      "is_a": "DOID:3211"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 50,
+    "fields": {
+      "doid": "DOID:16",
+      "name": "integumentary system disease",
+      "defi": "A disease of anatomical entity that is located_in the integumentary system comprising the skin and its appendages. [url:http://en.wikipedia.org/wiki/Integumentary_system]",
+      "omim": "",
+      "is_a": "DOID:7"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 51,
+    "fields": {
+      "doid": "DOID:14717",
+      "name": "centronuclear myopathy",
+      "defi": "A myopathy characterized by abnormally located  nuclei in skeletal muscle cells. The nuclei are located in the center of the cell, instead of their normal location at the periphery. [url:http://en.wikipedia.org/wiki/Centronuclear_myopathy, url:http://ghr.nlm.nih.gov/condition/centronuclear-myopathy]",
+      "omim": "OMIM:160150+OMIM:255200+OMIM:310400+OMIM:614408+OMIM:614807+OMIM:615959",
+      "is_a": "DOID:423"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 52,
+    "fields": {
+      "doid": "DOID:423",
+      "name": "myopathy",
+      "defi": "A muscular disease in which the muscle fibers do not function resulting in muscular weakness. [url:http://en.wikipedia.org/wiki/Myopathy]",
+      "omim": "",
+      "is_a": "DOID:66"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 53,
+    "fields": {
+      "doid": "DOID:0080015",
+      "name": "physical disorder",
+      "defi": "A disease that has_material_basis_in a genetic abnormality, error with embryonic development, infection or compromised intrauterine environment. [url:http://en.wikipedia.org/wiki/Congenital_disorder]",
+      "omim": "",
+      "is_a": "DOID:4"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 54,
+    "fields": {
+      "doid": "DOID:0080043",
+      "name": "achondrogenesis",
+      "defi": "An osteochondrodysplasia that has_material_basis_in deficient endochondral ossification which results_in dwarfism, short-trunk, short-limbed, anascara, disaprportionately large cranium, and a narrow chest which leads to death in utero or during early neonatal period. [url:http://en.wikipedia.org/wiki/Achondrogenesis, url:http://www.healthline.com/galecontent/achondrogenesis, url:http://www.nlm.nih.gov/medlineplus/ency/article/001247.htm, url:http://www.orpha.net/data/patho/Pro/en/Achondrogenesis-FRenPro1256.pdf, url:http://www.rarediseases.org/search/rdbdetail_abstract.html?disname=Achondrogenesis]",
+      "omim": "",
+      "is_a": "DOID:2256"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 55,
+    "fields": {
+      "doid": "DOID:1443",
+      "name": "cerebral degeneration",
+      "defi": "A filariasis that is a zoonotic infection caused by the nematode of the genus Dipetalonema, which is transmitted accidentally to humans from porcupines, beavers and other mammals by mosquitoes. The adult worms live subcutaneously or in body cavities or in the eyes of humans. Dead worms cause hypersensitivity necrosis with eosinophils, followed by granulomatous reaction and fibrosis. [url:http://books.google.com/books?id=OBZbR4vpg0YC&pg=PA158&lpg#v=onepage&q&f=false]",
+      "omim": "",
+      "is_a": "DOID:936"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 56,
+    "fields": {
+      "doid": "DOID:11725",
+      "name": "Cornelia de Lange syndrome",
+      "defi": "A genetic disease that is characterized by slow growth before and after birth, intellectual disability that is usually severe to profound, skeletal abnormalities involving the arms and hands, and distinctive facial features. [url:http://en.wikipedia.org/wiki/Cornelia_de_Lange_Syndrome, url:http://ghr.nlm.nih.gov/condition/cornelia-de-lange-syndrome, url:http://www.omim.org/entry/122470, url:http://www.rarediseases.org/rare-disease-information/rare-diseases/byID/30/viewAbstract]",
+      "omim": "OMIM:122470+OMIM:300590+OMIM:300882+OMIM:610759+OMIM:614701",
+      "is_a": "DOID:630"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 57,
+    "fields": {
+      "doid": "DOID:9884",
+      "name": "muscular dystrophy",
+      "defi": "A myopathy is characterized by progressive skeletal muscle weakness degeneration. [url:http://en.wikipedia.org/wiki/Muscular_dystrophy, url:http://www.ninds.nih.gov/disorders/md/md.htm]",
+      "omim": "OMIM:158800+OMIM:159050+OMIM:309930+OMIM:309950+OMIM:310000+OMIM:310095+OMIM:600416",
+      "is_a": "DOID:423"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 58,
+    "fields": {
+      "doid": "DOID:2468",
+      "name": "psychotic disorder",
+      "defi": "A cognitive disorder that involves abnormal thinking and perceptions resulting in a disconnection with reality. [url:http://www.nlm.nih.gov/medlineplus/psychoticdisorders.html]",
+      "omim": "",
+      "is_a": "DOID:1561"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 59,
+    "fields": {
+      "doid": "DOID:0050629",
+      "name": "Aicardi-Goutieres syndrome",
+      "defi": "An autosomal recessive disease that is a genetically heterogeneous encephalopathy characterized in its most severe form by cerebral atrophy, leukodystrophy, intracranial calcifications, chronic cerebrospinal fluid (CSF) lymphocytosis, increased CSF alpha-interferon, and negative serologic investigations for common prenatal infections. [url:http://omim.org/entry/225750, url:http://www.ncbi.nlm.nih.gov/books/NBK1475/]",
+      "omim": "OMIM:225750+OMIM:610181+OMIM:610329+OMIM:610333+OMIM:612952+OMIM:615010+OMIM:615846",
+      "is_a": "DOID:0050737"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 60,
+    "fields": {
+      "doid": "DOID:37",
+      "name": "skin disease",
+      "defi": "An integumentary system disease that is located_in skin. [url:http://en.wikipedia.org/wiki/Skin_disease]",
+      "omim": "",
+      "is_a": "DOID:16"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 61,
+    "fields": {
+      "doid": "DOID:2214",
+      "name": "inherited blood coagulation disease",
+      "defi": "A perichondritis of auricle with a sudden onset and a short course. [url:http://www.nlm.nih.gov/medlineplus/ency/article/001253.htm]",
+      "omim": "",
+      "is_a": "DOID:1247"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 62,
+    "fields": {
+      "doid": "DOID:1927",
+      "name": "sphingolipidosis",
+      "defi": "A sphingolipidosis characterized by deficiency of the enzyme glucocerebrosidase which results in the accumulation of harmful quantities of the glycolipid glucocerebroside throughout the body, especially within the bone marrow, spleen and liver. [url:http://en.wikipedia.org/wiki/Gaucher%27s_disease, url:https://www.rarediseases.org/rare-disease-information/rare-diseases/byID/12/viewAbstract]",
+      "omim": "",
+      "is_a": "DOID:9455"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 63,
+    "fields": {
+      "doid": "DOID:655",
+      "name": "inherited metabolic disorder",
+      "defi": "A disease of metabolism that has _material_basis_in enzyme deficiency or accumulation of enzymes or toxins which interfere with normal function due to inherited enzyme abnormality. [url:http://en.wikipedia.org/wiki/Inborn_errors_of_metabolism, url:http://www.ncbi.nlm.nih.gov/mesh/68008659]",
+      "omim": "",
+      "is_a": "DOID:0014667"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 64,
+    "fields": {
+      "doid": "DOID:3783",
+      "name": "Coffin-Lowry syndrome",
+      "defi": "An autosomal dominant disease that is characterized by the association of diffuse mesangial sclerosis (DMS), male pseudohermaphroditism with a 46,XY karyotype, and nephroblastoma that derives_from an abnormality in the WT1 gene (Wilms' tumor suppressor gene). [url:http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1049926/, url:http://www.orpha.net/consor/cgi-bin/OC_Exp.php?Expert=220&lng=EN]",
+      "omim": "OMIM:303600",
+      "is_a": "DOID:0050735"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 65,
+    "fields": {
+      "doid": "DOID:1056",
+      "name": "oculocerebrorenal syndrome",
+      "defi": "A vascular disease that is characterized by severe supine hypotension in late pregnancy, whose clinical presentation ranges from minimal cardiovascular alterations to severe shock, resulting from inferior vena cava compression by gravid uterus. [url:http://www.ncbi.nlm.nih.gov/pubmed/22537582, url:http://www.ncbi.nlm.nih.gov/pubmed/8164943]",
+      "omim": "OMIM:309000",
+      "is_a": "DOID:0050735"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 66,
+    "fields": {
+      "doid": "DOID:9455",
+      "name": "lipid storage disease",
+      "defi": "A lysosomal storage disease that involves the accumulation of harmful amounts of lipids (fats) in some of the body's cells and tissues. [url:http://en.wikipedia.org/wiki/Lipidoses]",
+      "omim": "",
+      "is_a": "DOID:3211"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 67,
+    "fields": {
+      "doid": "DOID:3981",
+      "name": "pantothenate kinase-associated neurodegeneration",
+      "defi": "A neurodegenerative disease that is characterized by an abnormal accumulation of iron in the brain and progressive degeneration of the nervous system. [url:http://en.wikipedia.org/wiki/Pantothenate_kinase-associated_neurodegeneration, url:http://www.ninds.nih.gov/disorders/nbia/nbia.htm]",
+      "omim": "OMIM:234200+OMIM:256600+OMIM:300894+OMIM:606159+OMIM:610217+OMIM:614298+OMIM:615643",
+      "is_a": "DOID:1289"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 68,
+    "fields": {
+      "doid": "DOID:0080056",
+      "name": "achondrogenesis type II",
+      "defi": "An achondrogenesis that has_material_basis_in mutations in the COL2A1 gene which results_in underdeveloped lungs, hydrops fetalis,a prominent forehead and abnormal ossification of the located_in vertebral column or located_in pelvis. [url:http://en.wikipedia.org/wiki/Achondrogenesis_type_2, url:http://ghr.nlm.nih.gov/condition/achondrogenesis, url:http://www.healthline.com/galecontent/achondrogenesis]",
+      "omim": "OMIM:200610",
+      "is_a": "DOID:0080043"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 69,
+    "fields": {
+      "doid": "DOID:331",
+      "name": "central nervous system disease",
+      "defi": "A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system. [url:http://en.wikipedia.org/wiki/Central_nervous_system_disease]",
+      "omim": "",
+      "is_a": "DOID:863"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 70,
+    "fields": {
+      "doid": "DOID:3827",
+      "name": "congenital diaphragmatic hernia",
+      "defi": "A diaphragm disease characterized by the lack of development of all or part of the diaphragm, which results in an abnormal opening that allows the stomach and intestines to move into the chest cavity and crowd the heart and lungs. [url:http://en.wikipedia.org/wiki/Congenital_diaphragmatic_hernia, url:http://ghr.nlm.nih.gov/condition/congenital-diaphragmatic-hernia]",
+      "omim": "OMIM:142340+OMIM:222400+OMIM:610187",
+      "is_a": "DOID:10481"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 71,
+    "fields": {
+      "doid": "DOID:10609",
+      "name": "rickets",
+      "defi": "A bone remodeling disease that has_material_basis_in nimpaired mineralization or calcification of bones before epiphyseal closure due to deficiency or impaired metabolism of vitamin D, phosphorus or calcium which results_in softening and deformity located_in bone. [url:http://emedicine.medscape.com/article/985510-overview, url:http://en.wikipedia.org/wiki/Rickets, url:http://www.mayoclinic.com/health/rickets/DS00813, url:http://www.ncbi.nlm.nih.gov/pubmed/26365554, url:http://www.nlm.nih.gov/medlineplus/ency/article/000344.htm, url:http://www.umm.edu/ency/article/000344.htm, url:https://en.wikipedia.org/wiki/Rickets#Types]",
+      "omim": "OMIM:264700+OMIM:277440+OMIM:600081+OMIM:600785",
+      "is_a": "DOID:0080005"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 72,
+    "fields": {
+      "doid": "DOID:3614",
+      "name": "Kallmann syndrome",
+      "defi": "An appendix carcinoma that derives_from epithelial cells of glandular origin. [url:http://en.wikipedia.org/wiki/Adenocarcinoma]",
+      "omim": "OMIM:147950+OMIM:244200+OMIM:610628+OMIM:612370+OMIM:612702",
+      "is_a": "DOID:1924"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 73,
+    "fields": {
+      "doid": "DOID:440",
+      "name": "neuromuscular disease",
+      "defi": "A neuropathy that affect the nerves that control the voluntary muscles. [url:http://www.nlm.nih.gov/medlineplus/neuromusculardisorders.html]",
+      "omim": "",
+      "is_a": "DOID:870"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 74,
+    "fields": {
+      "doid": "DOID:0080053",
+      "name": "Albright's hereditary osteodystrophy",
+      "defi": "An osteochondrodysplasia that has_material_basis_in lack of responsiveness to parathyroid hormone which results_in shortening and widening of long bones of the located_in hand or located_in foot along with short stature, obesity, and rounded face. [pdf:http://www.orpha.net/data/patho/Pro/en/Albright-FRenPro1314.pdf, url:http://en.wikipedia.org/wiki/Albright%27s_hereditary_osteodystrophy, url:http://rarediseases.info.nih.gov/GARD/Disease.aspx?diseaseID=5770]",
+      "omim": "OMIM:103580",
+      "is_a": "DOID:4184"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 75,
+    "fields": {
+      "doid": "DOID:0060334",
+      "name": "transient neonatal diabetes mellitus",
+      "defi": "A neonatal diabetes mellitus characterized by hyperglycemia during the neonatal period that remits during infancy but recurs in later life in most patients. [PMID:17349054, url:http://en.wikipedia.org/wiki/Transient_neonatal_diabetes_mellitus]",
+      "omim": "OMIM:601410+OMIM:610374+OMIM:610582",
+      "is_a": "DOID:11717"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 76,
+    "fields": {
+      "doid": "DOID:1441",
+      "name": "autosomal dominant cerebellar ataxia",
+      "defi": "A hereditary ataxia that has_material_basis_in autosomal dominant inheritance. [url:http://www.ncbi.nlm.nih.gov/books/NBK1138/, url:http://www.ncbi.nlm.nih.gov/books/NBK22234/]",
+      "omim": "",
+      "is_a": "DOID:0050951"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 77,
+    "fields": {
+      "doid": "DOID:2908",
+      "name": "Treacher Collins syndrome",
+      "defi": "A syndrome that is characterized by incomplete development of the ear, nose, soft palate, lip, and mandible. It is associated with anomalous development of the first branchial arch and second branchial arch. [url:http://en.wikipedia.org/wiki/Goldenhar_syndrome, url:http://www.faces-cranio.org/Disord/Golden.htm, url:http://www.healthline.com/galecontent/goldenhar-syndrome]",
+      "omim": "OMIM:154500+OMIM:248390+OMIM:613717",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 78,
+    "fields": {
+      "doid": "DOID:1270",
+      "name": "hereditary hemorrhagic telangiectasia",
+      "defi": "An autosomal dominant disease characterized by the presence of multiple arteriovenous malformations that lack intervening capillaries and result in direct connections between arteries and veins. [url:http://en.wikipedia.org/wiki/Hereditary_hemorrhagic_telangiectasia, url:http://ghr.nlm.nih.gov/condition/hereditary-hemorrhagic-telangiectasia, url:http://www.ncbi.nlm.nih.gov/books/NBK1351/]",
+      "omim": "OMIM:187300+OMIM:600376+OMIM:600655+OMIM:601101+OMIM:615506",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 79,
+    "fields": {
+      "doid": "DOID:0050887",
+      "name": "Townes-Brocks syndrome",
+      "defi": "An autosomal dominant disease that is characterized by imperforate anus, dysplastic ears often associated with sensorineural and/or conductive hearing impairment, and thumb malformations. [url:http://en.wikipedia.org/wiki/Townes%E2%80%93Brocks_syndrome, url:http://ghr.nlm.nih.gov/condition/townes-brocks-syndrome, url:http://www.ncbi.nlm.nih.gov/pubmed/?term=12925729, url:http://www.omim.org/entry/107480, url:http://www.orpha.net/consor/cgi-bin/Disease_Search.php?lng=EN&data_id=218&Disease(s)/group%20of%20diseases=Townes-Brocks-syndrome&title=Townes-Brocks-syndrome&search=Disease_Search_Simple]",
+      "omim": "OMIM:107480",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 80,
+    "fields": {
+      "doid": "DOID:2339",
+      "name": "Crouzon syndrome",
+      "defi": "A craniosynostosis that involves premature fusion of certain skull bones. This early fusion prevents the skull from growing normally and affects the shape of the head and face. The disease is associated with mutations in the FGFR2 gene. [url:http://emedicine.medscape.com/article/942989-overview, url:http://en.wikipedia.org/wiki/Crouzon_syndrome, url:http://ghr.nlm.nih.gov/condition/crouzon-syndrome, url:http://rarediseases.about.com/cs/crouzonsyndrome/a/011804.htm, url:http://www.faces-cranio.org/Disord/Crouzon.htm]",
+      "omim": "OMIM:123500",
+      "is_a": "DOID:2340"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 81,
+    "fields": {
+      "doid": "DOID:9267",
+      "name": "urea cycle disorder",
+      "defi": "An amino acid metabolic disorder that involves a deficiency of one of the enzymes in the urea cycle which is responsible for removing ammonia from the blood stream. [url:http://en.wikipedia.org/wiki/Urea_cycle_disorder]",
+      "omim": "",
+      "is_a": "DOID:9252"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 82,
+    "fields": {
+      "doid": "DOID:2914",
+      "name": "immune system disease",
+      "defi": "A disease of anatomical entity that is located_in the immune system. [url:http://en.wikipedia.org/wiki/Immune_system]",
+      "omim": "",
+      "is_a": "DOID:7"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 83,
+    "fields": {
+      "doid": "DOID:0060248",
+      "name": "Simpson-Golabi-Behmel syndrome",
+      "defi": "An X-linked disease characterized by pre- and postnatal overgrowth and craniofacial, skeletal, cardiac and renal abnormalities. [url:http://en.wikipedia.org/wiki/Simpson%E2%80%93Golabi%E2%80%93Behmel_syndrome, url:http://ghr.nlm.nih.gov/condition/simpson-golabi-behmel-syndrome, url:https://www.rarediseases.org/rare-disease-information/rare-diseases/byID/982/viewAbstract]",
+      "omim": "OMIM:300209+OMIM:312870",
+      "is_a": "DOID:0050735"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 84,
+    "fields": {
+      "doid": "DOID:1227",
+      "name": "neutropenia",
+      "defi": "An inherited blood coagulation disease that has_material_basis_in Factor IX deficiency, which makes coagulation much more prolonged. The disease is inherited as an X-linked recessive trait. [url:http://www.nlm.nih.gov/medlineplus/ency/article/000539.htm]",
+      "omim": "",
+      "is_a": "DOID:12987"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 85,
+    "fields": {
+      "doid": "DOID:0050735",
+      "name": "X-linked disease",
+      "defi": "A monogenic disease that has_material_basis_in muations in genes on the X chromosome. [url:http://en.wikipedia.org/wiki/Genetic_disorder#X-linked_dominant, url:http://ghr.nlm.nih.gov/handbook/inheritance/inheritancepatterns]",
+      "omim": "",
+      "is_a": "DOID:0050177"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 86,
+    "fields": {
+      "doid": "DOID:114",
+      "name": "heart disease",
+      "defi": "A cardiovascular system disease that involves the heart. [url:http://en.wikipedia.org/wiki/Heart_disease]",
+      "omim": "",
+      "is_a": "DOID:1287"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 87,
+    "fields": {
+      "doid": "DOID:161",
+      "name": "keratosis",
+      "defi": "A skin disease characterized_by growth of keratin on the skin or mucous membranes. [url:https://en.wikipedia.org/wiki/Keratosis]",
+      "omim": "",
+      "is_a": "DOID:37"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 88,
+    "fields": {
+      "doid": "DOID:12987",
+      "name": "agranulocytosis",
+      "defi": "A malaria that is caused by the protozoan parasite Plasmodium vivax, which induces paroxysms at 48-hour intervals. [url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=vivax+malaria]",
+      "omim": "",
+      "is_a": "DOID:615"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 89,
+    "fields": {
+      "doid": "DOID:13268",
+      "name": "porphyria",
+      "defi": "An inherited metabolic disorder that involves certain enzymes in the heme bio-synthetic pathway resulting in the overproduction and accumulation of the porphyrins. [url:http://en.wikipedia.org/wiki/Porphyria#Subtypes]",
+      "omim": "",
+      "is_a": "DOID:655"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 90,
+    "fields": {
+      "doid": "DOID:0050736",
+      "name": "autosomal dominant disease",
+      "defi": "An autosomal genetic disease that is characterized by the presence of one disease-associated mutation of a gene which is sufficient to cause the disease. [url:http://ghr.nlm.nih.gov/glossary=autosomaldominant, url:http://ghr.nlm.nih.gov/handbook/inheritance/inheritancepatterns, url:http://www.nlm.nih.gov/medlineplus/ency/article/002049.htm]",
+      "omim": "",
+      "is_a": "DOID:0050739"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 91,
+    "fields": {
+      "doid": "DOID:9351",
+      "name": "diabetes mellitus",
+      "defi": "A glucose metabolism disease characterized  by chronic hyperglycaemia with disturbances of carbohydrate, fat and protein metabolism resulting from defects in insulin secretion, insulin action, or both. [PMID:9686693, url:http://www.who.int/diabetes/action_online/basics/en/, url:https://en.wikipedia.org/wiki/Diabetes_mellitus]",
+      "omim": "",
+      "is_a": "DOID:4194"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 92,
+    "fields": {
+      "doid": "DOID:1826",
+      "name": "epilepsy syndrome",
+      "defi": "A brain disease that is characterized by the occurrance of at least two unprovoked seizures resulting from a persistent epileptogenic abnormality of the brain that is able to spontaneously generate paroxysmal activity and typically manifested by sudden brief episodes of altered or diminished consciousness, involuntary movements, or convulsions. [url:http://books.google.com/books?id=YXqX04Te9ioC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false, url:http://www.merriam-webster.com/medlineplus/epilepsy]",
+      "omim": "",
+      "is_a": "DOID:936"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 93,
+    "fields": {
+      "doid": "DOID:1838",
+      "name": "Menkes disease",
+      "defi": "An epilepsy syndrome that is characterised by generalised seizures with no apparent cause which arise from many independent foci (multifocal epilepsies) or from epileptic circuits that involve the whole brain. [url:http://en.wikipedia.org/wiki/Epilepsy, url:http://en.wikipedia.org/wiki/Generalized_epilepsy]",
+      "omim": "OMIM:309400",
+      "is_a": "DOID:421"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 94,
+    "fields": {
+      "doid": "DOID:0050787",
+      "name": "juvenile polyposis syndrome",
+      "defi": "An autosomal dominant disease that is characterized by predisposition to hamartomatous benign polyps in the gastrointestinal tract, specifically in the stomach, small intestine, colon, and rectum. [url:http://ghr.nlm.nih.gov/condition/juvenile-polyposis-syndrome, url:http://www.cancer.net/cancer-types/juvenile-polyposis-syndrome, url:http://www.ncbi.nlm.nih.gov/books/NBK1469/]",
+      "omim": "OMIM:174900",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 95,
+    "fields": {
+      "doid": "DOID:12799",
+      "name": "mucopolysaccharidosis II",
+      "defi": "A mucopolysaccharidosis characterized by a deficiency of the lysosomal enzyme iduronate sulfatase. [url:http://en.wikipedia.org/wiki/Hunter_syndrome]",
+      "omim": "OMIM:309900",
+      "is_a": "DOID:12798"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 96,
+    "fields": {
+      "doid": "DOID:13481",
+      "name": "thanatophoric dysplasia",
+      "defi": "An osteochondrodysplasia that results_in short arms and legs with excess folds of skin. [url:http://emedicine.medscape.com/article/949591-overview, url:http://en.wikipedia.org/wiki/Thanatophoric_dysplasia, url:http://ghr.nlm.nih.gov/condition/thanatophoric-dysplasia]",
+      "omim": "OMIM:187600+OMIM:187601+OMIM:273680",
+      "is_a": "DOID:2256"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 97,
+    "fields": {
+      "doid": "DOID:936",
+      "name": "brain disease",
+      "defi": "A diabetes mellitus that involves high blood glucose resulting from cells fail to use insulin properly. [url:http://en.wikipedia.org/wiki/Diabetes, url:http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2]",
+      "omim": "",
+      "is_a": "DOID:331"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 98,
+    "fields": {
+      "doid": "DOID:1932",
+      "name": "Angelman syndrome",
+      "defi": "An organ system cancer that is manifested in the reproductive organs. [url:http://en.wikipedia.org/wiki/Reproductive_system#Examples_of_cancers]",
+      "omim": "OMIM:105830",
+      "is_a": "DOID:0080014"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 99,
+    "fields": {
+      "doid": "DOID:1858",
+      "name": "McCune Albright syndrome",
+      "defi": "An autosomal dominant disease that involves skin pigmentation, bone and hormonal problems along with premature puberty. It is caused by mutations in the GNAS1 gene. [url:http://emedicine.medscape.com/article/923026-overview, url:http://en.wikipedia.org/wiki/McCune%E2%80%93Albright_syndrome, url:http://ghr.nlm.nih.gov/condition/mccune-albright-syndrome, url:http://www.nichd.nih.gov/health/topics/mccune_albright_syndrome.cfm, url:http://www.nlm.nih.gov/medlineplus/ency/article/001217.htm, url:http://www.umm.edu/ency/article/001217.htm]",
+      "omim": "OMIM:174800",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 100,
+    "fields": {
+      "doid": "DOID:2583",
+      "name": "agammaglobulinemia",
+      "defi": "A B cell deficiency that is caused by a reduction in all types of gamma globulins. [url:http://en.wikipedia.org/wiki/Dysgammaglobulinemia]",
+      "omim": "OMIM:601495+OMIM:612692+OMIM:613500+OMIM:613501+OMIM:613502+OMIM:613506+OMIM:615214",
+      "is_a": "DOID:2115"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 101,
+    "fields": {
+      "doid": "DOID:0050789",
+      "name": "tarsal-carpal coalition syndrome",
+      "defi": "An autosomal dominant disease that is characterized by fusion of the carpals, tarsals, and phalanges, short first metacarpals causing brachydactyly; and humeroradial fusion. [url:http://ghr.nlm.nih.gov/condition/tarsal-carpal-coalition-syndrome, url:http://omim.org/entry/186570?search=186570&highlight=186570, url:http://rarediseases.info.nih.gov/gard/9225/tarsal-carpal-coalition-syndrome/resources/1, url:http://www.ncbi.nlm.nih.gov/pubmed/22326510, url:http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&Expert=1412]",
+      "omim": "OMIM:186570",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 102,
+    "fields": {
+      "doid": "DOID:1827",
+      "name": "idiopathic generalized epilepsy",
+      "defi": "An epilepsy syndrome that is characterised by generalised seizures with no apparent cause which arise from many independent foci (multifocal epilepsies) or from epileptic circuits that involve the whole brain. [url:http://en.wikipedia.org/wiki/Epilepsy, url:http://en.wikipedia.org/wiki/Generalized_epilepsy]",
+      "omim": "OMIM:600669+OMIM:604827+OMIM:606972+OMIM:607628+OMIM:607682+OMIM:608762+OMIM:609750+OMIM:611136+OMIM:611934+OMIM:612899+OMIM:613060+OMIM:614847",
+      "is_a": "DOID:1826"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 103,
+    "fields": {
+      "doid": "DOID:1933",
+      "name": "Rubinstein-Taybi syndrome",
+      "defi": "An autosomal dominant disease characterized by short stature, moderate to sever intellectual disability, distinctive facial features and broad thumbs and first toes; additionally it can include eye  abnormalities, heart and kidney defects, dental problems and obesity. [url:ghr.nlm.nih.gov/condition/rubinstein-taybi-syndrome, url:http://en.wikipedia.org/wiki/Rubinstein%E2%80%93Taybi_syndrome]",
+      "omim": "OMIM:180849+OMIM:610543+OMIM:613684",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 104,
+    "fields": {
+      "doid": "DOID:720",
+      "name": "normocytic anemia",
+      "defi": "An autoimmune disease of endocrine system that involves inflammation located_in thyroid gland caused by the immune system reacting against its own tissues. [sn:IEDB]",
+      "omim": "",
+      "is_a": "DOID:2355"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 105,
+    "fields": {
+      "doid": "DOID:5295",
+      "name": "intestinal disease",
+      "defi": "A gastrointestinal system disease that is located_in the intestine. [url:http://en.wikipedia.org/wiki/Human_gastrointestinal_tract]",
+      "omim": "",
+      "is_a": "DOID:77"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 106,
+    "fields": {
+      "doid": "DOID:11971",
+      "name": "synostosis",
+      "defi": "A dysostosis that results_in abnormal fusing of adjacent bones. [url:http://en.wikipedia.org/wiki/Synostosis, url:http://medical-dictionary.thefreedictionary.com/synostosis]",
+      "omim": "",
+      "is_a": "DOID:1934"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 107,
+    "fields": {
+      "doid": "DOID:679",
+      "name": "basal ganglia disease",
+      "defi": "A movement disease characterized by serious and progressive problems with control of gait and balance, along with complex eye movement and thinking problems. It involves gradual deterioration and death of specific volumes of the brain. [url:http://en.wikipedia.org/wiki/Progressive_supranuclear_palsy, url:http://www.ninds.nih.gov/disorders/psp/psp.htm]",
+      "omim": "",
+      "is_a": "DOID:936"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 108,
+    "fields": {
+      "doid": "DOID:8466",
+      "name": "retinal degeneration",
+      "defi": "A syndrome that is characterized by absence or underdeveloped tissue connecting the left and right halves of the brain, infantile spasms and chorioretinal lacunae, which are defects in the light-sensitive tissue at the back of the eye. [url:http://en.wikipedia.org/wiki/Aicardi_syndrome, url:http://ghr.nlm.nih.gov/condition/aicardi-syndrome]",
+      "omim": "",
+      "is_a": "DOID:5679"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 109,
+    "fields": {
+      "doid": "DOID:13515",
+      "name": "tuberous sclerosis",
+      "defi": "A pervasive developmental disorder that is a rare condition characterized by late onset (>3 years of age) of developmental delays in language, social function, and motor skills where children who have had previously normal development who then appear to regress. [url:http://en.wikipedia.org/wiki/Heller%27s_syndrome, url:http://www.patient.co.uk/doctor/Heller%27s-Syndrome.htm]",
+      "omim": "OMIM:191100+OMIM:613254",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 110,
+    "fields": {
+      "doid": "DOID:0050542",
+      "name": "Charcot-Marie-Tooth disease type X",
+      "defi": "A Charcot-Marie-Tooth disease has_material_basis_in X-linked inheritance of a point mutation in the connexin-32 gene. [url:http://www.ninds.nih.gov/disorders/charcot_marie_tooth/detail_charcot_marie_tooth.htm]",
+      "omim": "OMIM:300905+OMIM:302800+OMIM:302801+OMIM:302802+OMIM:310490+OMIM:311070",
+      "is_a": "DOID:10595"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 111,
+    "fields": {
+      "doid": "DOID:0014667",
+      "name": "disease of metabolism",
+      "defi": "A disease that involving errors in metabolic processes of building or degradation of molecules. [url:http://www.ncbi.nlm.nih.gov/books/NBK22259/]",
+      "omim": "",
+      "is_a": "DOID:4"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 112,
+    "fields": {
+      "doid": "DOID:4194",
+      "name": "glucose metabolism disease",
+      "defi": "A rheumatic disease and collagen disease that involves the abnormal growth of connective tissue, which supports the skin and internal organs. [url:http://www.niams.nih.gov/Health_Info/Scleroderma/default.asp]",
+      "omim": "",
+      "is_a": "DOID:0050013"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 113,
+    "fields": {
+      "doid": "DOID:0060037",
+      "name": "developmental disorder of mental health",
+      "defi": "A disease of mental health that occur during a child's developmental period between birth and age 18 resulting in retarding of the child's psychological or physical development. [url:http://en.wikipedia.org/wiki/Developmental_disorders]",
+      "omim": "",
+      "is_a": "DOID:150"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 114,
+    "fields": {
+      "doid": "DOID:612",
+      "name": "primary immunodeficiency disease",
+      "defi": "An immune system disease that results when one or more essential parts of the immune system is missing or not working properly at birth due to a genetic mutation. [url:http://www.nichd.nih.gov/publications/pubs/primary_immuno.cfm#PrimaryImmunoDiseases]",
+      "omim": "OMIM:242850",
+      "is_a": "DOID:2914"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 115,
+    "fields": {
+      "doid": "DOID:0050538",
+      "name": "Charcot-Marie-Tooth disease type 1",
+      "defi": "A Charcot-Marie-Tooth disease characterized by demyelination of the peripheral nerve axons. [url:http://www.ninds.nih.gov/disorders/charcot_marie_tooth/detail_charcot_marie_tooth.htm]",
+      "omim": "OMIM:118200+OMIM:118220+OMIM:118300+OMIM:601098+OMIM:607678+OMIM:607734",
+      "is_a": "DOID:10595"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 116,
+    "fields": {
+      "doid": "DOID:0050737",
+      "name": "autosomal recessive disease",
+      "defi": "An autosomal genetic disease that is characterized by the presence of two mutated copies of the gene, both of which must be present in order for the disease or trait to develop. [url:http://ghr.nlm.nih.gov/handbook/inheritance/inheritancepatterns, url:http://www.nlm.nih.gov/medlineplus/ency/article/002052.htm]",
+      "omim": "",
+      "is_a": "DOID:0050739"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 117,
+    "fields": {
+      "doid": "DOID:9248",
+      "name": "Pallister-Hall syndrome",
+      "defi": "An amyloidosis where amyloid protein progressively deposits in cerebral blood vessel walls with subsequent degenerative vascular changes that usually result in spontaneous cerebral hemorrhage, ischemic lesions and progressive dementia. [OMIM:605714, url:http://en.wikipedia.org/wiki/Cerebral_amyloid_angiopathy]",
+      "omim": "OMIM:146510",
+      "is_a": "DOID:0080015"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 118,
+    "fields": {
+      "doid": "DOID:11372",
+      "name": "megacolon",
+      "defi": "A colonic disease that is characterized by an abnormal dilation of the colon. [url:http://en.wikipedia.org/wiki/Megacolon]",
+      "omim": "",
+      "is_a": "DOID:5353"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 119,
+    "fields": {
+      "doid": "DOID:66",
+      "name": "muscle tissue disease",
+      "defi": "A bone cancer and malignant neoplasm of chest wall that is located_in the chest wall. [url:http://www.ncbi.nlm.nih.gov/pubmed/10451260]",
+      "omim": "",
+      "is_a": "DOID:0080000"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 120,
+    "fields": {
+      "doid": "DOID:0050798",
+      "name": "cerebral creatine deficiency syndrome",
+      "defi": "A peroxisomal disease that is characterized by hypotonia and seizures in the neonatal period and neurological regression in early infancy. [url:http://www.ncbi.nlm.nih.gov/pubmed/11815777, url:http://www.ncbi.nlm.nih.gov/pubmed/17458872, url:http://www.ncbi.nlm.nih.gov/pubmed/18536048, url:http://www.omim.org/entry/264470, url:http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=EN&Expert=2971]",
+      "omim": "",
+      "is_a": "DOID:9252"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 121,
+    "fields": {
+      "doid": "DOID:0050540",
+      "name": "Charcot-Marie-Tooth disease type 3",
+      "defi": "A Charcot-Marie-Tooth disease characterized by abnormalities in the axon of the peripheral nerve cell. [url:http://www.ncbi.nlm.nih.gov/pubmed/25098539, url:http://www.ninds.nih.gov/disorders/charcot_marie_tooth/detail_charcot_marie_tooth.htm]",
+      "omim": "OMIM:145900",
+      "is_a": "DOID:10595"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 122,
+    "fields": {
+      "doid": "DOID:2959",
+      "name": "hyperimmunoglobulin syndrome",
+      "defi": "A tuberculosis that is a contagious disease located_in lungs. The infection has_symptom fever, has_symptom cough, has_symptom difficulty in breathing, has_symptom inflammatory infiltrations, has_symptom formation of tubercles, has_symptom caseation, has_symptom pleural effusion, and has_symptom fibrosis. [url:http://www.cdc.gov/tb/publications/factsheets/general/tb.htm, url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tuberculosis]",
+      "omim": "",
+      "is_a": "DOID:2115"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 123,
+    "fields": {
+      "doid": "DOID:607",
+      "name": "paraplegia",
+      "defi": "A gastrointestinal system disease that is located_in the esophagus. [url:http://en.wikipedia.org/wiki/Esophageal_disease]",
+      "omim": "",
+      "is_a": "DOID:331"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 124,
+    "fields": {
+      "doid": "DOID:0050541",
+      "name": "Charcot-Marie-Tooth disease type 4",
+      "defi": "A Charcot-Marie-Tooth disease characterized by demyelinating or axonal abnormalities that has_material_basis_in autosomal recessive inheritance. [url:http://www.ninds.nih.gov/disorders/charcot_marie_tooth/detail_charcot_marie_tooth.htm]",
+      "omim": "OMIM:145900+OMIM:158580+OMIM:158590+OMIM:182960+OMIM:214400+OMIM:600794+OMIM:601382+OMIM:601455+OMIM:601596+OMIM:604563+OMIM:605253+OMIM:605285+OMIM:607641+OMIM:607706+OMIM:608634+OMIM:609311+OMIM:611228+OMIM:613376+OMIM:614751+OMIM:614895+OMIM:615284+OMIM:615575",
+      "is_a": "DOID:10595"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 125,
+    "fields": {
+      "doid": "DOID:0050328",
+      "name": "congenital hypothyroidism",
+      "defi": "A hypothyroidism that is present at birth. [url:http://en.wikipedia.org/wiki/Congenital_hypothyroidism, url:http://ghr.nlm.nih.gov/condition/congenital-hypothyroidism]",
+      "omim": "OMIM:218700+OMIM:225250+OMIM:274400+OMIM:274500+OMIM:274900+OMIM:275100+OMIM:275200+OMIM:607200+OMIM:609893+OMIM:614450",
+      "is_a": "DOID:1459"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 126,
+    "fields": {
+      "doid": "DOID:0050453",
+      "name": "lissencephaly",
+      "defi": "A congenital nervous system abnormality characterized by the absence of folds in the cerebral cortex and caused_by defective neuronal migration during the 12th to 24th weeks of gestation. [url:http://en.wikipedia.org/wiki/Lissencephaly, url:http://www.ninds.nih.gov/disorders/lissencephaly/lissencephaly.htm]",
+      "omim": "OMIM:257320+OMIM:300067+OMIM:300215+OMIM:607432+OMIM:611603+OMIM:614019+OMIM:615191",
+      "is_a": "DOID:2490"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 127,
+    "fields": {
+      "doid": "DOID:9500",
+      "name": "leukocyte disease",
+      "defi": "An endogenous depression that involves intense, sustained and sometimes disabling depression experienced by women after giving birth. [url:http://en.wikipedia.org/wiki/Mood_disorder]",
+      "omim": "",
+      "is_a": "DOID:74"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 128,
+    "fields": {
+      "doid": "DOID:5679",
+      "name": "retinal disease",
+      "defi": "An eye disease that is located_in the retina. [url:http://en.wikipedia.org/wiki/Retina#Diseases_and_disorders]",
+      "omim": "",
+      "is_a": "DOID:5614"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 129,
+    "fields": {
+      "doid": "DOID:0060171",
+      "name": "Dravet Syndrome",
+      "defi": "An epilepsy that is characterized by frequent febrile seizures with onset before 1 year. [url:http://dravet.org/about-dravet/smei, url:http://www.ninds.nih.gov/disorders/dravet_syndrome/dravet_syndrome.htm]",
+      "omim": "OMIM:607208",
+      "is_a": "DOID:0050703"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 130,
+    "fields": {
+      "doid": "DOID:2120",
+      "name": "focal dermal hypoplasia",
+      "defi": "A primary immunnodeficiency disease that is caused by a lack of infection-fighting antibody producing B cells (immunoglobulins) or B cells that are not functioning properly. [url:http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2601718/pdf/nihms57213.pdf, url:http://www.nichd.nih.gov/publications/pubs/primary_immuno.cfm#WhatisPrimaryImmunodeficiency]",
+      "omim": "OMIM:305600",
+      "is_a": "DOID:0050735"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 131,
+    "fields": {
+      "doid": "DOID:2581",
+      "name": "chondrodysplasia punctata",
+      "defi": "A genetic disease that is characterized by systemic shortening of the proximal bones (i.e. rhizomelia), seizures, recurrent respiratory tract infections, and congential cataracts and has_material_basis_in mutations of the alkyldihydroxyacetonephosphate synthase (alkyl-DHAP synthase) gene. [url:http://en.wikipedia.org/wiki/Rhizomelic_chondrodysplasia_punctata, url:http://ghr.nlm.nih.gov/condition/rhizomelic-chondrodysplasia-punctata, url:http://www.healthline.com/galecontent/rhizomelic-chondrodysplasia-punctata]",
+      "omim": "OMIM:215105",
+      "is_a": "DOID:630"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 132,
+    "fields": {
+      "doid": "DOID:4254",
+      "name": "osteosclerosis",
+      "defi": "A bone remodeling disease that results_in abnormal elevated bone density or mass. [url:http://en.wikipedia.org/wiki/Osteosclerosis, url:http://medical-dictionary.thefreedictionary.com/osteosclerosis, url:http://www.medcyclopaedia.com/library/topics/volume_iii_1/o/osteosclerosis.aspx]",
+      "omim": "",
+      "is_a": "DOID:0080005"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 133,
+    "fields": {
+      "doid": "DOID:13270",
+      "name": "erythropoietic protoporphyria",
+      "defi": "An acute porphyria characterized by a deficiency in the enzyme ferrochelatase, leading to abnormally high levels of protoporphyrin in the tissue. [url:http://en.wikipedia.org/wiki/Erythropoietic_protoporphyria]",
+      "omim": "OMIM:177000+OMIM:300752",
+      "is_a": "DOID:3133"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 134,
+    "fields": {
+      "doid": "DOID:0060013",
+      "name": "gamma chain deficiency",
+      "defi": "A severe combined immunodeficiency that is a X-linked SCID caused by mutations in genes encoding common gamma chain proteins shared by the interleukin (IL-2,4,7,9,16 and21) receptors resulting in a non-functional gamma chain, defective interleukin signalling, minimal or ascent T- and NK cells and non-functional B-cells. [url:http://en.wikipedia.org/wiki/Severe_combined_immunodeficiency]",
+      "omim": "OMIM:300400",
+      "is_a": "DOID:627"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 135,
+    "fields": {
+      "doid": "DOID:2843",
+      "name": "long QT syndrome",
+      "defi": "An autosomal genetic disease that is characterized by delayed repolarization of the heart following a heartbeat increases the risk of episodes of torsade de pointes (TDP, a form of irregular heartbeat that originates from the ventricles). [url:http://en.wikipedia.org/wiki/Long_QT_syndrome]",
+      "omim": "OMIM:170390+OMIM:192500+OMIM:601005+OMIM:603830+OMIM:611818+OMIM:611819+OMIM:611820+OMIM:612955+OMIM:613485+OMIM:613688+OMIM:613693+OMIM:613695",
+      "is_a": "DOID:0050739"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 136,
+    "fields": {
+      "doid": "DOID:615",
+      "name": "leukopenia",
+      "defi": "A leukocyte disorder that is a decrease in the number of white blood cells (leukocytes) found in the blood, which places individuals at increased risk of infection. [url:http://en.wikipedia.org/wiki/Leukopenia]",
+      "omim": "",
+      "is_a": "DOID:9500"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 137,
+    "fields": {
+      "doid": "DOID:225",
+      "name": "syndrome",
+      "defi": "A disease comprised of a group of signs and symptoms that occur together and characterize a particular abnormality. [URL:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=syndrome]",
+      "omim": "",
+      "is_a": "DOID:4"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 138,
+    "fields": {
+      "doid": "DOID:14499",
+      "name": "Fabry disease",
+      "defi": "A primary systemic mycosis that results_in a systemic fungal infection, has_material_basis_in Sporothrix schenckii in animals and humans and results_in_formation_of red papule at the site of inoculation. [url:http://www.nyhealth.gov/diseases/communicable/sporotrichosis/fact_sheet.htm]",
+      "omim": "OMIM:301500",
+      "is_a": "DOID:1927"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 139,
+    "fields": {
+      "doid": "DOID:2490",
+      "name": "congenital nervous system abnormality",
+      "defi": "A paraplegia that is characterized by progressive stiffness and contraction (spasticity) in the lower limbs. [url:http://en.wikipedia.org/wiki/Familial_spastic_paraplegia]",
+      "omim": "",
+      "is_a": "DOID:0080015"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 140,
+    "fields": {
+      "doid": "DOID:898",
+      "name": "polycystic kidney disease",
+      "defi": "An autosomal dominant disease characterized by the presence of multiple cysts located_in the kidney resulting from ciliopathy that disrupts the function of primary cilium. [url:en.wikipedia.org/wiki/Ciliopathy#cite_note-davenport2008-4, url:kidney.niddk.nih.gov/kudiseases/pubs/polycystic]",
+      "omim": "OMIM:173900+OMIM:263200+OMIM:600666+OMIM:613095",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 141,
+    "fields": {
+      "doid": "DOID:0050987",
+      "name": "hypomyelinating leukoencephalopathy",
+      "defi": "A neurodegenerative disease that is characterized by slowly progressive incoordination of gait and often associated with poor coordination of hands, speech, and eye movements. [url:http://www.ncbi.nlm.nih.gov/books/NBK1138]",
+      "omim": "OMIM:612438",
+      "is_a": "DOID:1441"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 142,
+    "fields": {
+      "doid": "DOID:5614",
+      "name": "eye disease",
+      "defi": "An eye and adnexa disease that is located_in the eye. [url:http://en.wikipedia.org/wiki/Eye_disease]",
+      "omim": "",
+      "is_a": "DOID:1492"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 143,
+    "fields": {
+      "doid": "DOID:9255",
+      "name": "frontotemporal dementia",
+      "defi": "A basal ganglia disease characterized by  progressive neuronal loss predominantly involving the frontal and/or temporal lobes of the brain resulting in a gradual and progressive decline in behavior or language. [url:http://en.wikipedia.org/wiki/Frontotemporal_dementia, url:http://www.ncbi.nlm.nih.gov/pubmed/21121521, url:https://www.rarediseases.org/rare-disease-information/rare-diseases/byID/673/viewAbstract]",
+      "omim": "OMIM:600274+OMIM:600795",
+      "is_a": "DOID:679"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 144,
+    "fields": {
+      "doid": "DOID:0060179",
+      "name": "Renpenning syndrome",
+      "defi": "An intellectual disability that is characterized by small head size (microcephaly), long narrow face, short stature, small testes, and intellectual deficit which follows X-linked inheritance and presents most often in males. [url:http://en.wikipedia.org/wiki/Renpenning%27s_syndrome]",
+      "omim": "OMIM:309500",
+      "is_a": "DOID:0050888"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 145,
+    "fields": {
+      "doid": "DOID:0050700",
+      "name": "cardiomyopathy",
+      "defi": "A heart disease and a myopathy that is characterized by deterioration of the function of the heart muscle. [url:http://en.wikipedia.org/wiki/Cardiomyopathy, url:http://www.nhlbi.nih.gov/health/health-topics/topics/cm/]",
+      "omim": "",
+      "is_a": "DOID:114"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 146,
+    "fields": {
+      "doid": "DOID:2256",
+      "name": "osteochondrodysplasia",
+      "defi": "A bone development disease that results_in defective development of cartilage or bone. [url:http://en.wikipedia.org/wiki/Osteochondrodysplasia, url:http://www.medcyclopaedia.com/library/topics/volume_iii_1/o/osteochondrodysplasia.aspx]",
+      "omim": "",
+      "is_a": "DOID:0080006"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 147,
+    "fields": {
+      "doid": "DOID:13636",
+      "name": "Fanconi's anemia",
+      "defi": "A congenital hypoplastic anemia characterized by progressive pancytopenia with bone marrow failure, variable congenital malformations and predisposition to develop hematological or solid tumors. It is a result of a genetic defect in a cluster of proteins responsible for DNA repair. [url:http://en.wikipedia.org/wiki/Fanconi_anemia, url:http://ghr.nlm.nih.gov/condition/fanconi-anemia, url:http://rarediseases.info.nih.gov/gard/6425/fanconi-anemia/resources/1]",
+      "omim": "OMIM:227645+OMIM:227646+OMIM:227650+OMIM:300514+OMIM:600901+OMIM:603467+OMIM:605724+OMIM:609053+OMIM:609054+OMIM:610832+OMIM:613390+OMIM:613951+OMIM:614082+OMIM:614083+OMIM:614087+OMIM:615272",
+      "is_a": "DOID:1342"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 148,
+    "fields": {
+      "doid": "DOID:0050557",
+      "name": "congenital muscular dystrophy",
+      "defi": "A muscular dystrophy that is an autosomal recessive disorder present at birth, which may result in contractures, scoliosis, respiratory and swallowing difficulties, and foot deformities. [url:http://www.ninds.nih.gov/disorders/md/detail_md.htm]",
+      "omim": "OMIM:253900+OMIM:254100+OMIM:602541+OMIM:602771+OMIM:604801+OMIM:606612+OMIM:607855+OMIM:608840+OMIM:609456+OMIM:613204+OMIM:613205",
+      "is_a": "DOID:9884"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 149,
+    "fields": {
+      "doid": "DOID:0050739",
+      "name": "autosomal genetic disease",
+      "defi": "A monogenic disease that is caused by a mutation in a single gene on one of the non-sex chromosomes. [url:http://ghr.nlm.nih.gov/glossary=autosomaldominant, url:http://ghr.nlm.nih.gov/handbook/inheritance/inheritancepatterns]",
+      "omim": "",
+      "is_a": "DOID:0050177"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 150,
+    "fields": {
+      "doid": "DOID:0050177",
+      "name": "monogenic disease",
+      "defi": "A genetic disease that is the result of one or more abnormal alleles and may be dominant (a single copy of the abnormal allele is sufficient to give rise to the disease), semi-dominant, or recessive (requiring both copies of the gene to have an abnormal allele). [DO:wk,ls]",
+      "omim": "",
+      "is_a": "DOID:630"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 151,
+    "fields": {
+      "doid": "DOID:14179",
+      "name": "Bruton-type agammaglobulinemia",
+      "defi": "A B cell deficiency that is caused by a mutation in the Bruton's tyrosine kinase (BTK) gene on the X chromosome resulting in X-linked agammaglobulinemia type 1, which is an immunodeficiency characterized by the failure to produce mature B lymphocytes, and associated with a failure of Ig heavy chain rearrangement. [url:http://en.wikipedia.org/wiki/X-linked_agammaglobulinemia, url:http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=300300, url:http://www.ncbi.nlm.nih.gov/gene/695?, url:http://www.nlm.nih.gov/medlineplus/ency/article/001307.htm, url:ttp://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=300755]",
+      "omim": "OMIM:300310+OMIM:300755",
+      "is_a": "DOID:2583"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 152,
+    "fields": {
+      "doid": "DOID:870",
+      "name": "neuropathy",
+      "defi": "A nervous system disease that is located_in nerves or nerve cells. [url:http://en.wikipedia.org/wiki/Neuropathy_%28disambiguation%29]",
+      "omim": "",
+      "is_a": "DOID:863"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 153,
+    "fields": {
+      "doid": "DOID:0080046",
+      "name": "Stickler syndrome",
+      "defi": "An osteochondrodysplasia that has_material_basis_in a mutation in the COL2A1 gene which results_in dwarfism with a short trunk and limbs as well as vision and hearing problems. The disease has_symptom large joints, has_symptom wide set eyes, has_symptom round flat face. [url:http://ghr.nlm.nih.gov/condition/kniest-dysplasia, url:http://rarediseases.info.nih.gov/GARD/Disease.aspx?PageID=4&diseaseID=6841, url:http://www.ksginfo.org/kniest.html]",
+      "omim": "OMIM:108300+OMIM:184840+OMIM:604841",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 154,
+    "fields": {
+      "doid": "DOID:77",
+      "name": "gastrointestinal system disease",
+      "defi": "A disease of anatomical entity that is located_in the gastrointestinal tract. [url:http://en.wikipedia.org/wiki/Human_gastrointestinal_tract]",
+      "omim": "",
+      "is_a": "DOID:7"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 155,
+    "fields": {
+      "doid": "DOID:0050424",
+      "name": "familial adenomatous polyposis",
+      "defi": "An autosomal dominant disease that is caused by mutations in the APC gene and involves formation of numerous polyps in the epithelium of the large intestine which are initially benign and later transform into colon cancer. [DO:ls, url:http://en.wikipedia.org/wiki/Familial_adenomatous_polyposis, url:http://www.omim.org/entry/175100?search=adenomatous%20polyposis]",
+      "omim": "OMIM:175100+OMIM:608456",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 156,
+    "fields": {
+      "doid": "DOID:1342",
+      "name": "congenital hypoplastic anemia",
+      "defi": "An agnosia that is a loss of the ability to recognize text. [url:http://en.wikipedia.org/wiki/Agnosia, url:http://en.wikipedia.org/wiki/Alexia_%28disorder%29]",
+      "omim": "",
+      "is_a": "DOID:12449"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 157,
+    "fields": {
+      "doid": "DOID:3133",
+      "name": "acute porphyria",
+      "defi": "A porphyria that has_symptom abdominal pain, has_symptom neuropathy, has_symptom autonomic instability and has_symptom psychosis. [url:http://emedicine.medscape.com/article/957604-overview, url:http://en.wikipedia.org/wiki/Porphyria, url:http://www.merckmanuals.com/professional/endocrine_and_metabolic_disorders/porphyrias/acute_porphyrias.html]",
+      "omim": "OMIM:612740",
+      "is_a": "DOID:13268"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 158,
+    "fields": {
+      "doid": "DOID:9252",
+      "name": "amino acid metabolic disorder",
+      "defi": "An inherited metabolic disorders which impair the synthesis and degradation of amino acids. [url:http://en.wikipedia.org/wiki/Inborn_errors_of_amino_acid_metabolism]",
+      "omim": "",
+      "is_a": "DOID:655"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 159,
+    "fields": {
+      "doid": "DOID:9271",
+      "name": "ornithine carbamoyltransferase deficiency",
+      "defi": "An urea cycle disorder that involves a mutated and ineffective form of the enzyme ornithine transcarbamylase. [url:http://en.wikipedia.org/wiki/Ornithine_carbamoyltransferase_deficiency]",
+      "omim": "OMIM:311250",
+      "is_a": "DOID:9267"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 160,
+    "fields": {
+      "doid": "DOID:1492",
+      "name": "eye and adnexa disease",
+      "defi": "A sensory system disease that is located_in the eye or the adnexa of the eye. [url:http://en.wikipedia.org/wiki/Category:Diseases_of_the_eye_and_adnexa]",
+      "omim": "",
+      "is_a": "DOID:0050155"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 161,
+    "fields": {
+      "doid": "DOID:3262",
+      "name": "phagocyte bactericidal dysfunction",
+      "defi": "A primary immunodeficiency disease where phagocytes have a diminished ability to fight bacterial infection. [url:http://en.wikipedia.org/wiki/Phagocyte_bactericidal_dysfunction]",
+      "omim": "",
+      "is_a": "DOID:612"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 162,
+    "fields": {
+      "doid": "DOID:3911",
+      "name": "progeria",
+      "defi": "A non-small cell lung carcinoma that derives_from epithelial cells of glandular origin. [url:http://cancergenome.nih.gov/cancersselected/lungadenocarcinoma, url:http://en.wikipedia.org/wiki/Adenocarcinoma, url:http://en.wikipedia.org/wiki/Adenocarcinoma_of_the_lung]",
+      "omim": "OMIM:176670",
+      "is_a": "DOID:0050737"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 163,
+    "fields": {
+      "doid": "DOID:50",
+      "name": "thyroid gland disease",
+      "defi": "An endocrine system disease that is located_in the thyroid. [url:http://en.wikipedia.org/wiki/Thyroid]",
+      "omim": "",
+      "is_a": "DOID:28"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 164,
+    "fields": {
+      "doid": "DOID:2452",
+      "name": "thrombophilia",
+      "defi": "A disease of metabolism that has_material_basis_in excessive growth hormone production which results_in enlargement located_in limb. [url:http://en.wikipedia.org/wiki/Acromegaly, url:http://www.acromegaly.org/, url:http://www.mayoclinic.com/health/acromegaly/DS00478, url:http://www.nlm.nih.gov/medlineplus/ency/article/000321.htm, url:http://www.umm.edu/endocrin/acromegaly.htm]",
+      "omim": "OMIM:188050",
+      "is_a": "DOID:1247"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 165,
+    "fields": {
+      "doid": "DOID:11949",
+      "name": "Creutzfeldt-Jakob disease",
+      "defi": "A Trichomonas vaginalis trichomoniasis that involves inflammation of the urinary bladder caused by Trichomonas vaginalis. The symptoms include pain during urination, foul urine odor and abnormal urine color. [url:http://www.merck.com/mmpe/sec14/ch194/ch194j.html]",
+      "omim": "OMIM:123400",
+      "is_a": "DOID:649"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 166,
+    "fields": {
+      "doid": "DOID:0060036",
+      "name": "intrinsic cardiomyopathy",
+      "defi": "A cardiomyopathy that is characterized as weakness in the muscle of the heart that is not due to an identifiable external cause. [url:http://www.princeton.edu/~achaney/tmve/wiki100k/docs/Cardiomyopathy.html]",
+      "omim": "",
+      "is_a": "DOID:0050700"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 167,
+    "fields": {
+      "doid": "DOID:0060158",
+      "name": "acquired metabolic disease",
+      "defi": "A disease of metabolism that has _material_basis_in enzyme deficiency or accumulation of enzymes or toxins which interfere with normal function due to an endocrine organ disease, organ malfunction, inadequate intake, dietary deficiency, or malabsorption. [url:http://en.wikipedia.org/wiki/Inborn_error_of_metabolism, url:http://www.ncbi.nlm.nih.gov/mesh/68008659]",
+      "omim": "",
+      "is_a": "DOID:0014667"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 168,
+    "fields": {
+      "doid": "DOID:2978",
+      "name": "carbohydrate metabolic disorder",
+      "defi": "An inherited metabolic disorder that affect the catabolism and anabolism of carbohydrates. [url:http://en.wikipedia.org/wiki/Inborn_errors_of_carbohydrate_metabolism]",
+      "omim": "",
+      "is_a": "DOID:655"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 169,
+    "fields": {
+      "doid": "DOID:0060352",
+      "name": "Kleefstra syndrome",
+      "defi": "A syndrome characterized by childhood hypotonia, a distinctive facial appearance, speech impediments and developmental disability, as well as epilepsy, congenital and urogenetic defects, microcephaly, corpulence, and psychiatric disorders. It is caused either by a microdeletion in the chromosome region 9q34.3 or by a point mutation in the EHMT1 gene located in that region. [PMID:15264279, PMID:21245904, url:http://ghr.nlm.nih.gov/condition/kleefstra-syndrome, url:https://en.wikipedia.org/wiki/9q34_deletion_syndrome]",
+      "omim": "OMIM:610253",
+      "is_a": "DOID:225"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 170,
+    "fields": {
+      "doid": "DOID:2734",
+      "name": "keratosis follicularis",
+      "defi": "A skin disease characterized by cutaneous pigmentation, premature graying, dystrophy of the nails, leukoplakia of the oral mucosa, continuous lacrimation due to atresia of the lacrimal ducts, often thrombocytopenia, anemia, testicular atrophy in the male carriers and predisposition to cancer. [url:http://en.wikipedia.org/wiki/Dyskeratosis_congenita, url:http://ghr.nlm.nih.gov/condition/dyskeratosis-congenita]",
+      "omim": "OMIM:124200",
+      "is_a": "DOID:161"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 171,
+    "fields": {
+      "doid": "DOID:583",
+      "name": "hemolytic anemia",
+      "defi": "A lymphoma that is characterized by having cellular features of both classic Hodgkin's lymphomas and large B-cell Lymphomas. [url:http://en.wikipedia.org/wiki/Gray_zone_lymphoma]",
+      "omim": "OMIM:266120+OMIM:612631",
+      "is_a": "DOID:720"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 172,
+    "fields": {
+      "doid": "DOID:0080006",
+      "name": "bone development disease",
+      "defi": "A bone disease that results_in abnormal growth and development located_in bone or located_in cartilage. [url:http://en.wikipedia.org/wiki/Dysplasia, url:http://www.medcyclopaedia.com/library/topics/volume_iii_1/o/osteochondrodysplasia.aspx]",
+      "omim": "",
+      "is_a": "DOID:0080001"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 173,
+    "fields": {
+      "doid": "DOID:150",
+      "name": "disease of mental health",
+      "defi": "A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture. [url:http://en.wikipedia.org/wiki/Mental_disorder]",
+      "omim": "",
+      "is_a": "DOID:4"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 174,
+    "fields": {
+      "doid": "DOID:10629",
+      "name": "microphthalmia",
+      "defi": "An eye disease where one or both eyeballs are abnormally small. [url:http://en.wikipedia.org/wiki/Microphthalmia, url:http://ghr.nlm.nih.gov/condition/microphthalmia]",
+      "omim": "OMIM:206900+OMIM:300166+OMIM:309801+OMIM:600165+OMIM:601186+OMIM:607932+OMIM:609549+OMIM:610093+OMIM:610125+OMIM:611038+OMIM:611040+OMIM:611897+OMIM:613094+OMIM:613704+OMIM:615972",
+      "is_a": "DOID:5614"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 175,
+    "fields": {
+      "doid": "DOID:1247",
+      "name": "blood coagulation disease",
+      "defi": "An anemia that is characterized by a deficiency of red blood cells, white blood cells and platelets produced by bone marrow. [url:http://en.wikipedia.org/wiki/Aplastic_anemia, url:http://www.nhlbi.nih.gov/health/health-topics/topics/aplastic/]",
+      "omim": "",
+      "is_a": "DOID:74"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 176,
+    "fields": {
+      "doid": "DOID:863",
+      "name": "nervous system disease",
+      "defi": "A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system. [url:http://en.wikipedia.org/wiki/Nervous_system]",
+      "omim": "",
+      "is_a": "DOID:7"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 177,
+    "fields": {
+      "doid": "DOID:1919",
+      "name": "Lesch-Nyhan syndrome",
+      "defi": "A germ cell cancer that has_material_basis_in cells that line the yolk sac of the embryo. [url:http://en.wikipedia.org/wiki/Endodermal_sinus_tumor, url:http://en.wikipedia.org/wiki/Germ_cell_tumor, url:http://www.cincinnatichildrens.org/health/y/yolk-sac/, url:http://www.orpha.net/consor/cgi-bin/OC_Exp.php?Lng=GB&Expert=876]",
+      "omim": "OMIM:300322",
+      "is_a": "DOID:653"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 178,
+    "fields": {
+      "doid": "DOID:5419",
+      "name": "schizophrenia",
+      "defi": "A psychotic disorder that is characterized by a disintegration of thought processes and of emotional responsiveness. [url:http://en.wikipedia.org/wiki/Schizophrenia]",
+      "omim": "OMIM:181500+OMIM:181510+OMIM:600511+OMIM:600850+OMIM:603013+OMIM:603175+OMIM:603176+OMIM:603206+OMIM:603342+OMIM:604906+OMIM:605419+OMIM:608078+OMIM:608543+OMIM:612361+OMIM:613025+OMIM:613950+OMIM:613959+OMIM:615232",
+      "is_a": "DOID:2468"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 179,
+    "fields": {
+      "doid": "DOID:11717",
+      "name": "neonatal diabetes mellitus",
+      "defi": "A type 2 diabetes that involves severe lipodystrophy in addition to the traditional signs of diabetes. [url:http://en.wikipedia.org/wiki/Lipoatrophic_diabetes]",
+      "omim": "",
+      "is_a": "DOID:9351"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 180,
+    "fields": {
+      "doid": "DOID:9169",
+      "name": "Wiskott-Aldrich syndrome",
+      "defi": "An esophageal disease that is characterized by an inability of the esophagus to move food toward the stomach resulting from the lower esophogeal sphincter not fully relaxing during swallowing. [url:http://www.nlm.nih.gov/medlineplus/ency/article/000267.htm]",
+      "omim": "OMIM:277970+OMIM:301000",
+      "is_a": "DOID:0050735"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 181,
+    "fields": {
+      "doid": "DOID:10584",
+      "name": "retinitis pigmentosa",
+      "defi": "A retinal degeneration characterized by the gradual deterioration of the photoreceptors or the retinal pigment epithelium of the retina leading to progressive sight loss. [url:http://en.wikipedia.org/wiki/Retinitis_pigmentosa, url:http://ghr.nlm.nih.gov/condition/retinitis-pigmentosa, url:http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4043609/]",
+      "omim": "OMIM:120970+OMIM:180100+OMIM:180104+OMIM:180105+OMIM:180210+OMIM:268000+OMIM:268025+OMIM:268060+OMIM:300029+OMIM:300424+OMIM:300605+OMIM:312600+OMIM:312612+OMIM:400004+OMIM:600059+OMIM:600105+OMIM:600132+OMIM:600138+OMIM:600852+OMIM:601414+OMIM:601718+OMIM:602594+OMIM:602772+OMIM:603809+OMIM:606068+OMIM:607921+OMIM:608133+OMIM:608380+OMIM:609913+OMIM:609923+OMIM:610282+OMIM:610359+OMIM:610599+OMIM:611131+OMIM:612095+OMIM:612165+OMIM:612572+OMIM:612712+OMIM:612943+OMIM:613194+OMIM:613428+OMIM:613464+OMIM:613575+OMIM:613581+OMIM:613582+OMIM:613617+OMIM:613731+OMIM:613750+OMIM:613756+OMIM:613758+OMIM:613767+OMIM:613769+OMIM:613794+OMIM:613801+OMIM:613810+OMIM:613827+OMIM:613861+OMIM:613862+OMIM:613983+OMIM:614180+OMIM:614181+OMIM:614494+OMIM:615233+OMIM:615434+OMIM:615565+OMIM:615725+OMIM:615780+OMIM:615922",
+      "is_a": "DOID:8466"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 182,
+    "fields": {
+      "doid": "DOID:3211",
+      "name": "lysosomal storage disease",
+      "defi": "An inherited metabolic disorder that involve an abnormal accumulation of substances inside the lysosome resulting from defects in lysosomal function. [url:http://en.wikipedia.org/wiki/Lysosomal_storage_disease]",
+      "omim": "",
+      "is_a": "DOID:655"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 183,
+    "fields": {
+      "doid": "DOID:1934",
+      "name": "dysostosis",
+      "defi": "A bone development disease that results_in defective ossification of located_in bone. [url:http://en.wikipedia.org/wiki/Dysostosis, url:http://medical-dictionary.thefreedictionary.com/dysostosis]",
+      "omim": "",
+      "is_a": "DOID:0080006"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 184,
+    "fields": {
+      "doid": "DOID:630",
+      "name": "genetic disease",
+      "defi": "A disease that has_material_basis_in genetic variations in the human genome. [url:http://ghr.nlm.nih.gov/]",
+      "omim": "",
+      "is_a": "DOID:4"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 185,
+    "fields": {
+      "doid": "DOID:74",
+      "name": "hematopoietic system disease",
+      "defi": "An immune system disease that has_material_basis_in hematopoietic cells. [url:http://en.wikipedia.org/wiki/Hematopathology]",
+      "omim": "",
+      "is_a": "DOID:2914"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 186,
+    "fields": {
+      "doid": "DOID:3146",
+      "name": "lipid metabolism disorder",
+      "defi": "An inherited metabolic disorder that involves the creation and degradation of lipids. [url:http://en.wikipedia.org/wiki/Lipid_metabolism]",
+      "omim": "",
+      "is_a": "DOID:655"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 187,
+    "fields": {
+      "doid": "DOID:13994",
+      "name": "cleidocranial dysplasia",
+      "defi": "An osteochondrodysplasia that has_material_basis_in mutations in the RUNX2 gene which results_in undeveloped or absent located_in clavicle along with delayed closing of fontanels in the located_in skull. [url:http://en.wikipedia.org/wiki/Cleidocranial_dysostosis, url:http://ghr.nlm.nih.gov/condition/cleidocranial-dysplasia, url:http://www.faces-cranio.org/Disord/CCD.htm, url:http://www.healthline.com/galecontent/cleidocranial-dysplasia-1, url:http://www.nlm.nih.gov/medlineplus/ency/article/001589.htm, url:http://www.umm.edu/ency/article/001589.htm]",
+      "omim": "OMIM:119600+OMIM:216330",
+      "is_a": "DOID:2256"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 188,
+    "fields": {
+      "doid": "DOID:0060038",
+      "name": "specific developmental disorder",
+      "defi": "A developmental disorder of mental health that categorizes specific learning disabilities and developmental disorders affecting coordination. [url:http://en.wikipedia.org/wiki/Specific_developmental_disorder]",
+      "omim": "",
+      "is_a": "DOID:0060037"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 189,
+    "fields": {
+      "doid": "DOID:0050437",
+      "name": "Danon disease",
+      "defi": "A long QY syndrome that has_material_basis_in autosomal dominant inheritance of a mutation in the KCNJ2 gene which disrupts the rhythm of the heart's lower chambers (ventricular arrhythmia) and results_in an unusually small lower jaw (micrognathia), low-set ears, and an abnormal curvature of the fingers called clinodactyly. [url:http://en.wikipedia.org/wiki/Andersen%E2%80%93Tawil_syndrome, url:http://en.wikipedia.org/wiki/Long_QT_syndrome]",
+      "omim": "OMIM:300257",
+      "is_a": "DOID:3211"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 190,
+    "fields": {
+      "doid": "DOID:14323",
+      "name": "Marfan syndrome",
+      "defi": "An anxiety disorder that is characterized by long-lasting anxiety that is not focused on any one object or situation. [url:http://en.wikipedia.org/wiki/Anxiety_disorder]",
+      "omim": "OMIM:154700",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 191,
+    "fields": {
+      "doid": "DOID:5353",
+      "name": "colonic disease",
+      "defi": "A disease of mental health that involves disruption of sleep patterns. [url:http://en.wikipedia.org/wiki/Sleep_disorder]",
+      "omim": "",
+      "is_a": "DOID:5295"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 192,
+    "fields": {
+      "doid": "DOID:0060040",
+      "name": "pervasive developmental disorder",
+      "defi": "A developmental disorder of mental health that refers to a group of five disorders characterized by impairments in socialization and communication, as well as restricted interests and repetitive behaviors. [url:http://www.ninds.nih.gov/disorders/pdd/pdd.htm]",
+      "omim": "",
+      "is_a": "DOID:0060037"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 193,
+    "fields": {
+      "doid": "DOID:649",
+      "name": "prion disease",
+      "defi": "A brain disease that is characterized by brain damage resulting from the abnormal folding, clumping and accumulation of cellular proteins in the brain induced by prion proteins. [url:http://en.wikipedia.org/wiki/Prion, url:http://www.cdc.gov/ncidod/dvrd/prions/, url:http://www.hopkinsmedicine.org/healthlibrary/conditions/nervous_system_disorders/prion_diseases_134,56/]",
+      "omim": "",
+      "is_a": "DOID:936"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 194,
+    "fields": {
+      "doid": "DOID:0080097",
+      "name": "myofibrillar myopathy 6",
+      "defi": "A Charcot-Marie-Tooth disease that is characterized optic atrophy followed by retinitis pigmentosa. [url:http://www.ncbi.nlm.nih.gov/pubmed/25491489]",
+      "omim": "OMIM:612954",
+      "is_a": "DOID:423"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 195,
+    "fields": {
+      "doid": "DOID:6683",
+      "name": "Aarskog-Scott syndrome",
+      "defi": "A monogenic disease affects a person's height, muscles, skeleton, genitals, and appearance of the face. [url:http://www.nlm.nih.gov/medlineplus/ency/article/001654.htm]",
+      "omim": "OMIM:100050+OMIM:305400",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 196,
+    "fields": {
+      "doid": "DOID:0060473",
+      "name": "Kabuki syndrome",
+      "defi": "A syndrome characterized by  multiple congenital anomalies and mental retardation. Other characteristics include a peculiar facial gestalt, short stature, skeletal and visceral abnormalities, cardiac anomalies, and immunological defects. [PMID:25281733, PMID:25972376, PMID:26512256, url:http://ghr.nlm.nih.gov/condition/kabuki-syndrome, url:https://en.wikipedia.org/wiki/Kabuki_syndrome]",
+      "omim": "OMIM:147920+OMIM:300867",
+      "is_a": "DOID:225"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 197,
+    "fields": {
+      "doid": "DOID:14737",
+      "name": "craniofrontonasal syndrome",
+      "defi": "A myopathy characterized by abnormally located  nuclei in skeletal muscle cells. The nuclei are located in the center of the cell, instead of their normal location at the periphery. [url:http://en.wikipedia.org/wiki/Centronuclear_myopathy, url:http://ghr.nlm.nih.gov/condition/centronuclear-myopathy]",
+      "omim": "OMIM:304110",
+      "is_a": "DOID:0050735"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 198,
+    "fields": {
+      "doid": "DOID:10487",
+      "name": "Hirschsprung's disease",
+      "defi": "A megacolon that is characterized by a blockage of the large intestine due to improper muscle movement in the bowel. [url:http://digestive.niddk.nih.gov/ddiseases/pubs/hirschsprungs_ez/, url:http://en.wikipedia.org/wiki/Hirschsprung%27s_disease, url:http://www.nlm.nih.gov/medlineplus/ency/article/001140.htm, url:http://www.uptodate.com/contents/congenital-aganglionic-megacolon-hirschsprung-disease]",
+      "omim": "OMIM:142623+OMIM:202550+OMIM:600155+OMIM:613711+OMIM:613712",
+      "is_a": "DOID:11372"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 199,
+    "fields": {
+      "doid": "DOID:14735",
+      "name": "hereditary angioedema",
+      "defi": "A myopathy characterized by abnormally located  nuclei in skeletal muscle cells. The nuclei are located in the center of the cell, instead of their normal location at the periphery. [url:http://en.wikipedia.org/wiki/Centronuclear_myopathy, url:http://ghr.nlm.nih.gov/condition/centronuclear-myopathy]",
+      "omim": "OMIM:106100+OMIM:610618",
+      "is_a": "DOID:1558"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 200,
+    "fields": {
+      "doid": "DOID:10983",
+      "name": "Alport syndrome",
+      "defi": "A monogenic disease that is characterized by glomerulonephritis, endstage kidney disease, and hearing loss. [url:http://en.wikipedia.org/wiki/Alport_syndrome]",
+      "omim": "OMIM:104200+OMIM:203780+OMIM:301050",
+      "is_a": "DOID:0050737"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 201,
+    "fields": {
+      "doid": "DOID:0050834",
+      "name": "CHARGE syndrome",
+      "defi": "A syndrome that is acterized by a pattern of congenital anomalies including choanal atresia and malformations of the heart, inner ear, and retina. [url:http://en.wikipedia.org/wiki/CHARGE_syndrome, url:http://ghr.nlm.nih.gov/condition/charge-syndrome, url:http://www.orpha.net/consor/cgi-bin/OC_Exp.php?Lng=EN&Expert=138, url:https://www.rarediseases.org/rare-disease-information/rare-diseases/byID/550/viewAbstract]",
+      "omim": "OMIM:214800",
+      "is_a": "DOID:225"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 202,
+    "fields": {
+      "doid": "DOID:3490",
+      "name": "Noonan syndrome",
+      "defi": "A skin disease where there is a diffuse infection of connective tissue with severe inflammation of dermal and subcutaneous layers of the skin. Cellulitis can be caused by normal skin flora or by exogenous bacteria, and often occurs where the skin has previously been broken: cracks in the skin, cuts, blisters, burns, insect bites, surgical wounds, or sites of intravenous catheter insertion. [url:http://en.wikipedia.org/wiki/Cellulitis]",
+      "omim": "OMIM:163950+OMIM:609942+OMIM:610733+OMIM:611553+OMIM:613224+OMIM:613706",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 203,
+    "fields": {
+      "doid": "DOID:422",
+      "name": "congenital structural myopathy",
+      "defi": "An integumentary system disease that is located_in hair. [url:http://en.wikipedia.org/wiki/Hair_disease]",
+      "omim": "",
+      "is_a": "DOID:423"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 204,
+    "fields": {
+      "doid": "DOID:11633",
+      "name": "thyroid hormone resistance syndrome",
+      "defi": "A syndrome characterized by hyperandrogenism, polycystic ovaries, hirsutism, oligomenorrhea or amenorrhea, anovulation and excessive body weight. [PMID:20591140, url:http://ghr.nlm.nih.gov/glossary=polycysticovarysyndrome, url:https://en.wikipedia.org/wiki/Polycystic_ovary_syndrome]",
+      "omim": "OMIM:188570+OMIM:274300",
+      "is_a": "DOID:1459"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 205,
+    "fields": {
+      "doid": "DOID:14447",
+      "name": "gonadal dysgenesis",
+      "defi": "A hypogonadism that is characterized by a progressive loss of germ cells on the developing gonads of an embryo. [url:http://en.wikipedia.org/wiki/Gonadal_dysgenesis]",
+      "omim": "",
+      "is_a": "DOID:1924"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 206,
+    "fields": {
+      "doid": "DOID:28",
+      "name": "endocrine system disease",
+      "defi": "A disease of anatomical entity that is located_in endocrine glands which secretes a type of hormone directly into the bloodstream to regulate the body. [url:http://en.wikipedia.org/wiki/Endocrine_system]",
+      "omim": "",
+      "is_a": "DOID:7"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 207,
+    "fields": {
+      "doid": "DOID:0050449",
+      "name": "pachyonychia congenita",
+      "defi": "A skin disease characterized by a defect in the normal process of keratinization of the mucosa. [url:http://en.wikipedia.org/wiki/White_sponge_nevus, url:http://omim.org/entry/193900]",
+      "omim": "OMIM:167200+OMIM:167210",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 208,
+    "fields": {
+      "doid": "DOID:680",
+      "name": "tauopathy",
+      "defi": "A neurodegenerative disease that has_material_basis_in the pathological aggregation of tau protein in so-called neurofibrillary tangles (NFT) in the human brain. [url:http://en.wikipedia.org/wiki/Tauopathy]",
+      "omim": "",
+      "is_a": "DOID:1289"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 209,
+    "fields": {
+      "doid": "DOID:14743",
+      "name": "trichorhinophalangeal syndrome type I",
+      "defi": "An autosomal dominant disease that is characterized by short stature, sparse hair, a bulbous nasal tip and cone-shaped epiphyses (the growing ends of bones), as well as severe generalized shortening of all finger and toe bones (brachydactyly). [url:http://rarediseases.info.nih.gov/gard/7802/trichorhinophalangeal-syndrome-type-3/resources/1, url:http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=EN&Expert=77258, url:http://www.rarediseases.org/rare-disease-information/rare-diseases/byID/732/viewAbstract]",
+      "omim": "OMIM:190350+OMIM:190351",
+      "is_a": "DOID:0050736"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 210,
+    "fields": {
+      "doid": "DOID:2355",
+      "name": "anemia",
+      "defi": "A hematopoietic system disease that is characterized by a decrease in the normal number of red blood cells. [url:http://en.wikipedia.org/wiki/Anemia, url:http://www.nhlbi.nih.gov/health/health-topics/topics/anemia/]",
+      "omim": "",
+      "is_a": "DOID:74"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 211,
+    "fields": {
+      "doid": "DOID:10481",
+      "name": "diaphragm disease",
+      "defi": "A muscular disease that is located_in the diaphragm. [url:http://www.bmc.org/thoracicsurgery/diseasesandconditions-diaphragm.htm]",
+      "omim": "",
+      "is_a": "DOID:0080000"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 212,
+    "fields": {
+      "doid": "DOID:2340",
+      "name": "craniosynostosis",
+      "defi": "A synostosis that results_in premature fusion located_in skull. [url:http://en.wikipedia.org/wiki/Craniosynostosis, url:http://www.chw.org/display/router.asp?DocID=22502, url:http://www.mayoclinic.com/health/craniosynostosis/DS00959, url:http://www.ninds.nih.gov/disorders/craniosynostosis/craniosynostosis.htm, url:http://www.nlm.nih.gov/medlineplus/ency/article/001590.htm]",
+      "omim": "OMIM:123100+OMIM:182212+OMIM:600593+OMIM:600775+OMIM:604757+OMIM:615314+OMIM:615529",
+      "is_a": "DOID:11971"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 213,
+    "fields": {
+      "doid": "DOID:3649",
+      "name": "pyruvate decarboxylase deficiency",
+      "defi": "A carbohydrate metabolic disorder characterized by the buildup of lactic acid in the body and a variety of neurological problems and caused by a deficiency of one of the three enzymes in the pyruvate dehydrogenase complex. [url:http://en.wikipedia.org/wiki/Pyruvate_dehydrogenase_deficiency, url:http://ghr.nlm.nih.gov/condition/pyruvate-dehydrogenase-deficiency, url:https://www.rarediseases.org/rare-disease-information/rare-diseases/byID/413/viewAbstract]",
+      "omim": "OMIM:245348+OMIM:245349+OMIM:312170+OMIM:608782+OMIM:614111",
+      "is_a": "DOID:2978"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 214,
+    "fields": {
+      "doid": "DOID:0080000",
+      "name": "muscular disease",
+      "defi": "A musculoskeletal system disease that affects the muscles. [url:http://www.nlm.nih.gov/medlineplus/muscledisorders.html]",
+      "omim": "",
+      "is_a": "DOID:17"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 215,
+    "fields": {
+      "doid": "DOID:1289",
+      "name": "neurodegenerative disease",
+      "defi": "A central nervous system disease that results_in the progressive deterioration of function or structure of neurons. [url:http://en.wikipedia.org/wiki/Degenerative_disease, url:http://en.wikipedia.org/wiki/Neurodegeneration]",
+      "omim": "",
+      "is_a": "DOID:331"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 216,
+    "fields": {
+      "doid": "DOID:0080001",
+      "name": "bone disease",
+      "defi": "A connective tissue disease that affects the structure or development of bone or causes an impairment of normal bone function. [url:http://en.wikipedia.org/wiki/Bone_disease, url:http://www.dsls.usra.edu/meetings/bonehealth_2005/information/factsheet1.pdf]",
+      "omim": "",
+      "is_a": "DOID:65"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 217,
+    "fields": {
+      "doid": "DOID:0050454",
+      "name": "periventricular nodular heterotopia",
+      "defi": "A congenital nervous system abnormality characterized by non proper migration of neurons during the early development of the fetal brain. [url:http://ghr.nlm.nih.gov/condition/periventricular-heterotopia]",
+      "omim": "OMIM:300049+OMIM:300537+OMIM:608097+OMIM:608098+OMIM:612881+OMIM:615544",
+      "is_a": "DOID:2490"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 218,
+    "fields": {
+      "doid": "DOID:1923",
+      "name": "sex differentiation disease",
+      "defi": "An acquired metabolic disease that has_material_basis_in an abnormally high level of uric acid in the blood. [url:http://en.wikipedia.org/wiki/Hyperuricemia]",
+      "omim": "",
+      "is_a": "DOID:2277"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 219,
+    "fields": {
+      "doid": "DOID:0080005",
+      "name": "bone remodeling disease",
+      "defi": "A bone disease that results_in formation or resorption abnormalities located_in bone. [url:http://en.wikipedia.org/wiki/Bone_remodeling]",
+      "omim": "",
+      "is_a": "DOID:0080001"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 220,
+    "fields": {
+      "doid": "DOID:3651",
+      "name": "pyruvate carboxylase deficiency disease",
+      "defi": "An acquired metabolic disease that has_material_basis_in low pH in body tissues and blood accompanied by the buildup of lactate especially D-lactate. [url:http://en.wikipedia.org/wiki/Lactic_acidosis]",
+      "omim": "OMIM:266150",
+      "is_a": "DOID:2978"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 221,
+    "fields": {
+      "doid": "DOID:2277",
+      "name": "gonadal disease",
+      "defi": "An endocrine system disease that is located_in the gonads. [url:http://semmelweis.hu/belgyogyaszat3/files/2011/05/drigazp-gonaddiseasesenglishiii-publicversion.pdf]",
+      "omim": "",
+      "is_a": "DOID:28"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 222,
+    "fields": {
+      "doid": "DOID:12960",
+      "name": "acrocephalosyndactylia",
+      "defi": "A synostosis that results_in craniosynostosis and syndactyly. [url:http://en.wikipedia.org/wiki/Acrocephalosyndactylia, url:http://www.netterimages.com/image/acrocephalosyndactylia.htm]",
+      "omim": "OMIM:101200",
+      "is_a": "DOID:11971"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 223,
+    "fields": {
+      "doid": "DOID:0050590",
+      "name": "severe congenital neutropenia",
+      "defi": "A neutropenia characterized by a maturation arrest of granulopoiesis at the level or promyelocytes and early onset of severe bacterial infections. [url:http://www.ncbi.nlm.nih.gov/pubmed/17133096]",
+      "omim": "OMIM:202700+OMIM:300299+OMIM:610738+OMIM:612541+OMIM:613107+OMIM:615285+OMIM:616022",
+      "is_a": "DOID:1227"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 224,
+    "fields": {
+      "doid": "DOID:4480",
+      "name": "achondroplasia",
+      "defi": "An osteochondrodysplasia that results_in dwarfism which has_material_basis_in abnormal ossification of cartilage in located_in long bone. [url:http://en.wikipedia.org/wiki/Achondroplasia, url:http://ghr.nlm.nih.gov/condition/achondroplasia, url:http://www.mayoclinic.com/health/dwarfism/DS01012/DSECTION%3Dsymptoms, url:http://www.medicinenet.com/achondroplasia/article.htm, url:http://www.nlm.nih.gov/medlineplus/ency/article/001577.htm]",
+      "omim": "OMIM:100800",
+      "is_a": "DOID:2256"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 225,
+    "fields": {
+      "doid": "DOID:2481",
+      "name": "infantile epileptic encephalopathy",
+      "defi": "A paraplegia that is characterized by progressive stiffness and contraction (spasticity) in the lower limbs. [url:http://en.wikipedia.org/wiki/Familial_spastic_paraplegia]",
+      "omim": "OMIM:300088+OMIM:300607+OMIM:300672+OMIM:607208+OMIM:609304+OMIM:612164+OMIM:613402+OMIM:613477+OMIM:613720+OMIM:613721+OMIM:613722",
+      "is_a": "DOID:1827"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 226,
+    "fields": {
+      "doid": "DOID:0050951",
+      "name": "hereditary ataxia",
+      "defi": "A neurodegenerative disease that is characterized by slowly progressive incoordination of gait and often associated with poor coordination of hands, speech, and eye movements. [url:http://www.ncbi.nlm.nih.gov/books/NBK1138]",
+      "omim": "",
+      "is_a": "DOID:1289"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 227,
+    "fields": {
+      "doid": "DOID:4184",
+      "name": "pseudohypoparathyroidism",
+      "defi": "A scleroderma that is characterized by fibrosis (or hardening) of the skin and major organs, as well as vascular alterations, and autoantibodies. [sn:IEDB]",
+      "omim": "OMIM:603233+OMIM:612462",
+      "is_a": "DOID:896"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 228,
+    "fields": {
+      "doid": "DOID:12347",
+      "name": "osteogenesis imperfecta",
+      "defi": "An osteochondrodysplasia that has_material_basis_in a deficiency in type-I collagen which results_in brittle bones and defective connective tissue. [url:http://emedicine.medscape.com/article/947588-overview, url:http://en.wikipedia.org/wiki/Osteogenesis_imperfecta, url:http://ghr.nlm.nih.gov/condition/osteogenesis-imperfecta, url:http://orthoinfo.aaos.org/topic.cfm?topic=a00051, url:http://osteogenesisimperfecta.org/, url:http://www.niams.nih.gov/Health_Info/bone/osteogenesis_Imperfecta/, url:http://www.nlm.nih.gov/medlineplus/ency/article/001573.htm, url:http://www.oif.org/site/PageServer]",
+      "omim": "OMIM:166200+OMIM:166210+OMIM:166220+OMIM:166240+OMIM:259420+OMIM:259440+OMIM:610682+OMIM:610854+OMIM:610915+OMIM:610967+OMIM:610968+OMIM:613848+OMIM:613849+OMIM:613982+OMIM:614856+OMIM:615066+OMIM:615220",
+      "is_a": "DOID:2256"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 229,
+    "fields": {
+      "doid": "DOID:11984",
+      "name": "hypertrophic cardiomyopathy",
+      "defi": "An intrinsic cardiomyopathy that has_material_basis_in autosomal dominant inheritance and that is characterized by abnormal  thickening (hypertrophy) of the heart without any obvious cause. [url:http://en.wikipedia.org/wiki/Hypertrophic_cardiomyopathy, url:http://ghr.nlm.nih.gov/condition/familial-hypertrophic-cardiomyopathy, url:http://www.mayoclinic.org/diseases-conditions/hypertrophic-cardiomyopathy/basics/definition/con-20030747, url:http://www.nhlbi.nih.gov/health/health-topics/topics/cm/]",
+      "omim": "OMIM:115195+OMIM:115196+OMIM:115197+OMIM:192600+OMIM:600858+OMIM:608751+OMIM:608758+OMIM:612098+OMIM:612124+OMIM:613243+OMIM:613251+OMIM:613255+OMIM:613690+OMIM:613765+OMIM:613838+OMIM:613873+OMIM:613874+OMIM:613875+OMIM:613876+OMIM:614676",
+      "is_a": "DOID:0060036"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 230,
+    "fields": {
+      "doid": "DOID:1561",
+      "name": "cognitive disorder",
+      "defi": "A disease of mental health that affects cognitive functions including memory processing, perception and problem solving. [url:http://en.wikipedia.org/wiki/Cognitive_disorder]",
+      "omim": "",
+      "is_a": "DOID:150"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 231,
+    "fields": {
+      "doid": "DOID:1924",
+      "name": "hypogonadism",
+      "defi": "A gonadal disease that is characterized by diminished functional activity of the gonads. [url:http://en.wikipedia.org/wiki/Hypogonadism]",
+      "omim": "OMIM:146110",
+      "is_a": "DOID:2277"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 232,
+    "fields": {
+      "doid": "DOID:1558",
+      "name": "angioedema",
+      "defi": "A skin disease characterized by the rapid swelling of the dermis, subcutaneous tissue, mucosa and submucosal tissues. [url:http://en.wikipedia.org/wiki/Angioedema]",
+      "omim": "",
+      "is_a": "DOID:37"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 233,
+    "fields": {
+      "doid": "DOID:1459",
+      "name": "hypothyroidism",
+      "defi": "A thyroid gland disease which involves an underproduction of thyroid hormone. [url:http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001393/]",
+      "omim": "",
+      "is_a": "DOID:50"
+    }
+  },
+  {
+    "model": "search.doinfo",
+    "pk": 234,
+    "fields": {
+      "doid": "DOID:421",
+      "name": "hair disease",
+      "defi": "An integumentary system disease that is located_in hair. [url:http://en.wikipedia.org/wiki/Hair_disease]",
+      "omim": "",
+      "is_a": "DOID:16"
+    }
+  }
+]
+

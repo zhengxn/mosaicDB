@@ -1,0 +1,32 @@
+{% load staticfiles %}
+{% include 'header.html' %}
+<link href="{% static 'search/my.css' %}" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{% static 'search/tsc_form_contact_light.css' %}" />
+</head>
+{% include 'navi.html' %}
+<div class="jumbotron background-color-primary-accent">
+    <div class="container">
+
+            <h3>Submit a somatic mutation</h3>
+
+            <div class="contact_form">           
+  <form action="" class="tsc_form_contact_light">
+    <label for="name">Variant Location <span>(required)</span></label>
+    <input type="text" name="name" class="form-input" value="chr1:123456-123457" onfocus="if (value =='chr1:123456-123457'){value =''}" onblur="if (value ==''){value='chr1:123456-123457'}" required />
+    <label for="email">E-mail <span>(required)</span></label>
+    <input type="email" name="email" class="form-input" required />
+    <label for="subject">Gene <span>(optional)</span></label>
+    <input type="text" name="gene" class="form-input" />
+    <label for="subject">Disease <span>(optional)</span></label>
+    <input type="text" name="disease" class="form-input" />
+    <label for="subject">Reference Pubmed ID <span>(required)</span></label>
+    <input type="text" name="pmid" class="form-input" required />
+    <label for="message">Note <span>(required)</span></label>
+    <textarea name="note" class="form-input" required></textarea>
+    <input class="form-btn" type="submit" value="Submit" />
+  </form>                
+            </div>
+
+    </div>
+</div>
+{% include 'footer.html' %}

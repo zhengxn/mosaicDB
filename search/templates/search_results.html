@@ -1,0 +1,45 @@
+{% load staticfiles %}
+{% load replace %}
+{% include 'header.html' %}
+<script src="{% static 'search/sorttable.js' %}"></script>
+</head>
+{% include 'navi.html'%}
+<link rel="stylesheet" href="{% static 'search/goci-ui.css' %}">
+<link rel="stylesheet" href="{% static 'search/my.css' %}">
+
+<div class="tabs">
+<p>You searched for: <strong>{{ query }}</strong></p>
+
+{% if variants %}
+    <p>Found {{ variants|length }} variant{{ variants|pluralize }}.</p>
+    <ul>
+    <table class="sortable bordered search" id="table">
+        <tr>
+            <th>Variant ID</th>
+            <th>Entrez Gene ID</th>
+            <th>Gene</th>
+            <th>Chromsome</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Disease</th>
+            <th>Method</th>
+        </tr>
+        {% for variant in variants %}
+        <tr>
+            <td><a href='/var/{{ variant.varid }}'> {{ variant.varid }}</a></td>
+            <td><a href='/gen/{{ variant.entrez.entrez }}'>{{ variant.entrez.entrez }}</a></td>
+            <td>{{ variant.gene }}</td>
+            <td>{{ variant.chrom }}</td>
+            <td>{{ variant.start }}</td>
+            <td>{{ variant.end }}</td>
+            <td><a href='/dis/{{ variant.indid.omim }}'>{% replace search="_" replacement=" " %}{{ variant.disease }}{% endreplace %}</a></td>
+            <td>{{ variant.method }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </ul>
+{% else %}
+    <p>No variants mathed your search criteria.</p>
+{% endif %}
+</div>
+{% include 'footer.html' %}

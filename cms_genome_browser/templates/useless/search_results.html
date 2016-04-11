@@ -1,0 +1,39 @@
+{% load staticfiles %}
+{% include 'header.html' %}
+</head>
+{% include 'navi.html'%}
+<div>
+<link rel="stylesheet" href="{% static 'search/goci-ui.css' %}">
+<p>You searched for: <strong>{{ query }}</strong></p>
+
+{% if variants %}
+    <p>Found {{ variants|length }} variant{{ variants|pluralize }}.</p>
+    <ul>
+    <table class=table4_1>
+        <tr>
+            <th>Variant ID</th>
+            <th>Gene</th>
+            <th>Chromsome</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Disease</th>
+            <th>Method</th>
+        </tr>
+        {% for variant in variants %}
+        <tr>
+            <td>{{ variant.varid }}</td>
+            <td>{{ variant.gene }}</td>
+            <td>{{ variant.chrom }}</td>
+            <td>{{ variant.start }}</td>
+            <td>{{ variant.end }}</td>
+            <td>{{ variant.disease }}</td>
+            <td>{{ variant.method }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </ul>
+{% else %}
+    <p>No variants mathed your search criteria.</p>
+{% endif %}
+</div>
+{% include 'footer.html' %}

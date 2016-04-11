@@ -1,0 +1,40 @@
+{% load replace %}
+<h4 align=center><font size=6>{{ names.name }}</font></h4>
+<h4 align=center>({{ names.doid }})</h4>
+<p>{{ defi }}</p>
+
+<div>
+{% if variants %}
+    <p>Found {{ variants|length }} variant{{ variants|pluralize }}.</p>
+    <ul>
+    <table class="sortable bordered search" id="table">
+        <tr>
+            <th>Variant ID</th>
+            <th>Entrez Gene ID</th>
+            <th>Gene</th>
+            <th>Chromsome</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Disease</th>
+            <th>Method</th>
+            <th>OMIM ID</th>
+        </tr>
+        {% for variant in variants %}
+        <tr>
+            <td><a href='/var/{{ variant.varid }}'> {{ variant.varid }}</a></td>
+            <td><a href='/gen/{{ variant.entrez.entrez }}'>{{ variant.entrez.entrez }}</a></td>
+            <td>{{ variant.gene }}</td>
+            <td>{{ variant.chrom }}</td>
+            <td>{{ variant.start }}</td>
+            <td>{{ variant.end }}</td>
+            <td><a href='/dis/{{ variant.indid.omim }}'>{% replace search="_" replacement=" " %}{{ variant.disease }}{% endreplace %}</a></td>
+            <td>{{ variant.method }}</td>
+            <td>{{ variant.indid.omim }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </ul>
+{% else %}
+    <p></p>
+{% endif %}
+</div>

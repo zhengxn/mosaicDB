@@ -1,0 +1,24 @@
+{% load staticfiles %}
+{% include 'header.html' %}
+</head>
+{% include 'navi.html' %}
+<div class="jumbotron background-color-primary-accent">
+    <div class="container">
+
+            <h3>Upload a file</h3>
+
+            <div class="input-group">           
+                <form action='' method='post' enctype="multipart/form-data">
+                {% csrf_token %}
+                    <!-- <div class="form-control"> -->
+                    {{ form }}
+           
+                    <span class="input-group-btn">
+                        <input type="submit" value="Submit" class="btn btn-default"/>
+                    </span>
+                </form>
+            </div>
+
+    </div>
+</div>
+{% include 'footer.html' %}

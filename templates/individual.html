@@ -1,0 +1,106 @@
+{% load staticfiles %}
+{% load replace %}
+{% include 'header.html' %}
+   <script src="{% static 'search/sorttable.js' %}"></script>
+   <link href="{% static 'search/my.css' %}" rel="stylesheet">
+   <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+{% include 'navi.html' %}
+<div class='tabs'>
+<h1> Individual ID: {{ ind.indid }} </h1>
+    <table class=bordered >
+        <tr>
+            <th>Individual ID</th>
+            <td>{{ ind.indid }}</td>
+        </tr>
+        <tr>
+            <th>Pubmed ID</th>
+            <td><a href="www.ncbi.nlm.nih.gov/pubmed/{{ ind.pmid }}" target="_blank">{{ ind.pmid }}</td>
+        </tr>
+        <tr>
+            <th>Whose mosaic mutation</th>
+            <td>{{ ind.whose_mosaic }}</td>
+        </tr>
+        <tr>
+            <th>Origin of mosaic mutation in patients</th>
+            <td>{{ ind.patient_mosaic_origin }}</td>
+        </tr>
+        <tr>
+            <th>Phenotype Mosaic</th>
+            <td>{{ ind.phenotype_mosaic }}</td>
+        </tr>
+        <tr>
+            <th>Age lower</th>
+            <td>{{ ind.age_lower }}</td>
+        </tr>
+        <tr>
+            <th>Age upper</th>
+            <td>{{ ind.age_upper }}</td>
+        </tr>
+        <tr>
+            <th>Number of affected children</th>
+            <td>{{ ind.affected_child_nc }}</td>
+        </tr>
+        <tr>
+            <th>Number of affected male children</th>
+            <td>{{ ind.affected_male_child_nc }}</td>
+        </tr>
+        <tr>
+            <th>Number of affected female children</th>
+            <td>{{ ind.affected_female_child_nc }}</td>
+        </tr>
+        <tr>
+            <th>Number of affected grandson</th>
+            <td>{{ ind.affected_grandson }}</td>
+        </tr>
+        <tr>
+            <th>Number of affected granddaughter</th>
+            <td>{{ ind.affected_granddaughter }}</td>
+        </tr>
+        <tr>
+            <th>Disease</th>
+            <td>{% replace search="_" replacement=" " %}{{ ind.disease }}{% endreplace %}</td>
+        </tr>
+        <tr>
+            <th>OMIM ID</th>
+            <td><a href="http://www.omim.org/entry/{{ ind.omim }}" target="_blank">{{ ind.omim }}</td>
+        </tr>
+    </table> 
+</div>
+<div class="tab2">
+    <h1>Variants</h1>
+    <p>Found {{ variants|length }} variant{{ variants|pluralize }} in this database.</p>
+    <ul>
+    <table class="sortable bordered search" id="table" >
+        <tr>
+            <th>Variant ID</th>
+            <th>Entrez Gene ID</th>
+            <th>Gene</th>
+            <th>Chromsome</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Disease</th>
+            <th>Method</th>
+        </tr>
+        {% for variant in variants %}
+        <tr>
+            <td><a href='/var/{{ variant.varid }}'> {{ variant.varid }}</a></td>
+            <td>{{ variant.entrez.entrez }}
+            <td>{{ variant.gene }}</td>
+            <td>{{ variant.chrom }}</td>
+            <td>{{ variant.start }}</td>
+            <td>{{ variant.end }}</td>
+            <td>{% replace search="_" replacement=" " %}{{ variant.disease }}{% endreplace %}</td>
+            <td>{{ variant.method }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </ul>
+</div>
+
+</body>
+{% include 'footer.html' %}
