@@ -72,13 +72,23 @@
         {% for variant in variants %}
         <tr>
             <td><a href='/var/{{ variant.varid }}'> {{ variant.varid }}</a></td>
-            <td>{{ variant.entrez.entrez }}
+            <td><a href='/gen/{{ variant.entrez.entrez }}'>{{ variant.entrez.entrez }}</a></td>
             <td>{{ variant.gene }}</td>
             <td>{{ variant.chrom }}</td>
             <td>{{ variant.start }}</td>
             <td>{{ variant.end }}</td>
-            <td>{% replace search="_" replacement=" " %}{{ variant.disease }}{% endreplace %}</td>
-            <td>{{ variant.method }}</td>
+            <td>
+            {% regroup variant.indid.all by disease as disease_list %}           
+            {% for disease in disease_list %}
+                <a href='/dis/{{ disease.list.0.omim }}'>{% replace search="_" replacement=" " %}{{ disease.grouper }}{% endreplace %}</a>
+            {% endfor %}
+            </td>
+            <td>
+            {% regroup variant.mosaic_set.all by method as method_list %}
+            {% for method in method_list %}
+                {{ method.grouper }}
+            {% endfor %}
+            </td>
         </tr>
         {% endfor %}
     </table>

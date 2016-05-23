@@ -21,6 +21,7 @@
             <th>Chromsome</th>
             <th>Start</th>
             <th>End</th>
+            <th>Mutation</th>
             <th>Disease</th>
             <th>Method</th>
         </tr>
@@ -32,8 +33,19 @@
             <td>{{ variant.chrom }}</td>
             <td>{{ variant.start }}</td>
             <td>{{ variant.end }}</td>
-            <td><a href='/dis/{{ variant.indid.omim }}'>{% replace search="_" replacement=" " %}{{ variant.disease }}{% endreplace %}</a></td>
-            <td>{{ variant.method }}</td>
+            <td>{{ variant.hgvs }}</td>
+            <td>
+            {% regroup variant.indid.all by disease as disease_list %}           
+            {% for disease in disease_list %}
+                <a href='/dis/{{ disease.list.0.omim }}'>{% replace search="_" replacement=" " %}{{ disease.grouper }}{% endreplace %}</a>
+            {% endfor %}
+            </td>
+            <td>
+            {% regroup variant.mosaic_set.all by method as method_list %}
+            {% for method in method_list %}
+                {{ method.grouper }}
+            {% endfor %}
+            </td>
         </tr>
         {% endfor %}
     </table>

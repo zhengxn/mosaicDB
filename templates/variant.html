@@ -38,7 +38,6 @@
 </ul>
 <div id="myTabContent" class="tab-content">
    <div class="tab-pane fade in active" id="var">
-      <p>Variant info</p>
     <div id="accordion">
     <div>
         <h3><a href="#">Overview</a></h3>
@@ -49,7 +48,7 @@
         </tr>
         <tr>
             <th>Entrez Gene ID</th>
-            <td>{{ variant.entrez.entrez }}</td>
+            <td><a href='/gen/{{ variant.entrez.entrez }}'>{{ variant.entrez.entrez }}</a></td>
         </tr>
         <tr>
             <th>Gene</th>
@@ -61,11 +60,22 @@
         </tr>
         <tr>
             <th>Disease</th>
-            <td>{% replace search="_" replacement=" " %}{{ variant.disease }}{% endreplace %}<a href='/dis/{{ variant.indid.omim }}'>(view all the variants in this disease)</a></td>
+            <td>
+            {% regroup variant.indid.all by disease as disease_list %}
+            {% for disease in disease_list %}
+            {% replace search="_" replacement=" " %}{{ disease.grouper }}{% endreplace %}<a href='/dis/{{ disease.list.0.omim }}'>(view all the variants in this disease)</a>
+            {% endfor %}
+            </td>
         </tr>
         <tr>
             <th>Method</th>
-            <td>{{ variant.method }}</td>
+            <td>
+            {% for ind in variant.indid.all %}
+                {% for mosaic in ind.mosaic_set.all %}
+                    {{ mosaic.method }}</br>
+                {% endfor %}
+            {% endfor %}
+            </td>
         </tr>
         <tr>
             <th>DNA Reference allele</th>
@@ -170,7 +180,6 @@
    </div>
    </div>
    <div class="tab-pane fade" id="gene">
-      <p>Gene</p>
     <table class=bordered>
         <tr>
             <th>Entrez Gene ID</th>
@@ -219,119 +228,140 @@
     </table>
    </div>
    <div class="tab-pane fade" id="ind">
-      <p>Individual information</p>
+	<div id="accordion">
+    {% for indid in variant.indid.all %}
+    <div>
+        <h3><a href="#">Individual #{{ forloop.counter }}</a></h3>
     <table class=bordered>
         <tr>
             <th>Individual ID</th>
-            <td>{{ variant.indid.indid }} <a href='/ind/{{ variant.indid.indid }}'>(view all the variants in this individual)</a></td>
+            <td>{{ indid.indid }} <a href='/ind/{{ variant.indid.indid }}'>(view all the variants in this individual)</a></td>
         </tr>
         <tr>
             <th>Pubmed ID</th>
-            <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ variant.indid.pmid }}" target="_blank">{{ variant.indid.pmid }}</td>
+            <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ variant.indid.pmid }}" target="_blank">{{ indid.pmid }}</a></td>
         </tr>
         <tr>
             <th>Whose mosaic mutation</th>
-            <td>{{ variant.indid.whose_mosaic }}</td>
+            <td>{{ indid.whose_mosaic }}</td>
         </tr>
         <tr>
             <th>Origin of mosaic mutation in patients</th>
-            <td>{{ variant.indid.patient_mosaic_origin }}</td>
+            <td>{{ indid.patient_mosaic_origin }}</td>
         </tr>
         <tr>
             <th>Phenotype Mosaic</th>
-            <td>{{ variant.indid.phenotype_mosaic }}</td>
+            <td>{{ indid.phenotype_mosaic }}</td>
         </tr>
         <tr>
-            <th>Age lower</th>
-            <td>{{ variant.indid.age_lower }}</td>
-        </tr>
-        <tr>
-            <th>Age upper</th>
-            <td>{{ variant.indid.age_upper }}</td>
+            <th>Age</th>
+            <td>
+            {% if age_lower %}
+            {{ indid.age_lower }} 
+            {% if age_upper %}
+            ~ {{ indid.age_upper }}
+            {% endif %}
+            {% else %}
+                None
+            {% endif %}
+            </td>
         </tr>
         <tr>
             <th>Number of affected children</th>
-            <td>{{ variant.indid.affected_child_nc }}</td>
+            <td>{{ indid.affected_child_nc }}</td>
         </tr>
         <tr>
             <th>Number of affected male children</th>
-            <td>{{ variant.indid.affected_male_child_nc }}</td>
+            <td>{{ indid.affected_male_child_nc }}</td>
         </tr>
         <tr>
             <th>Number of affected female children</th>
-            <td>{{ variant.indid.affected_female_child_nc }}</td>
+            <td>{{ indid.affected_female_child_nc }}</td>
         </tr>
         <tr>
             <th>Number of affected grandson</th>
-            <td>{{ variant.indid.affected_grandson }}</td>
+            <td>{{ indid.affected_grandson }}</td>
         </tr>
         <tr>
             <th>Number of affected granddaughter</th>
-            <td>{{ variant.indid.affected_granddaughter }}</td>
+            <td>{{ indid.affected_granddaughter }}</td>
         </tr>
         <tr>
             <th>Disease</th>
-            <td>{% replace search="_" replacement=" " %}{{ variant.indid.disease }}{% endreplace %}<a href='/dis/{{ variant.indid.omim }}'>(view all the variants in this disease)</a></td>
+            <td>{% replace search="_" replacement=" " %}{{ indid.disease }}{% endreplace %}<a href='/dis/{{ indid.omim }}'>(view all the variants in this disease)</a></td>
         </tr>
         <tr>
             <th>OMIM ID</th>
-            <td><a href="http://www.omim.org/entry/{{ variant.indid.omim }}" target="_blank">{{ variant.indid.omim }}</td>
+            <td><a href="http://www.omim.org/entry/{{ variant.indid.omim }}" target="_blank">{{ indid.omim }}</a></td>
         </tr>
-
     </table> 
    </div>
+    {% endfor %}
+   </div>
+   </div>
    <div class="tab-pane fade" id="pub">
-      <p>Publication information</p>
+	<div id="accordion">
+    {% for pmid in variant.pmid.all %}
+    <div>
+        <h3><a href="#">Publication #{{ forloop.counter }}: {{ pmid.pmid }}</a></h3>
     <table class=bordered>
         <tr>
             <th>Pubmed ID</th>
-            <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ variant.pmid.pmid }}" target="_blank">{{ variant.pmid.pmid }}</a></td>
+            <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ pmid.pmid }}" target="_blank">{{ pmid.pmid }}</a></td>
         </tr>
         <tr>
             <th>Title</th>
-            <td>{{ variant.pmid.title }}</td>
+            <td>{{ pmid.title }}</td>
         </tr>
         <tr>
             <th>Journal</th>
-            <td>{% replace search="_" replacement=" " %}{{ variant.pmid.journal }}{% endreplace %}</td>
+            <td>{% replace search="_" replacement=" " %}{{ pmid.journal }}{% endreplace %}</td>
         </tr>
         <tr>
             <th>Publication date</th>
-            <td>{{ variant.pmid.date }}</td>
+            <td>{{ pmid.date }}</td>
         </tr>
         <tr>
             <th>Disease</th>
-            <td>{% replace search="_" replacement=" " %}{{ variant.pmid.disease }}{% endreplace %}</td>
+            <td>{% replace search="_" replacement=" " %}{{ pmid.disease }}{% endreplace %}</td>
         </tr>
         <tr>
             <th>Population</th>
-            <td>{{ variant.pmid.population }}</td>
+            <td>{{ pmid.population }}</td>
         </tr>
         <tr>
-            <th>Incidence lower</th>
-            <td>{{ variant.pmid.incidence_lower }}</td>
-        </tr>
-        <tr>
-            <th>Incidence Upper</th>
-            <td>{{ variant.pmid.incidence_upper }}</td>
+            <th>Incidence</th>
+            <td>
+            {% if incidence_lower %}
+            {{ pmid.incidence_lower }} 
+            {% if incidence_upper %}
+            ~ {{ pmid.incidence_upper }}
+            {% endif %}
+            {% else %}
+                None
+            {% endif %}
+            </td>
         </tr>
         <tr>
             <th>Number of male cases</th>
-            <td>{{ variant.pmid.male_cases }}</td>
+            <td>{{ pmid.male_cases }}</td>
         </tr>
         <tr>
             <th>Number of female cases</th>
-            <td>{{ variant.pmid.female_cases }}</td>
+            <td>{{ pmid.female_cases }}</td>
         </tr>
         <tr>
             <th>Number of other cases</th>
-            <td>{{ variant.pmid.other_cases }}</td>
+            <td>{{ pmid.other_cases }}</td>
         </tr>
         <tr>
             <th>Paternal age effect</th>
-            <td>{{ variant.pmid.paternal_age_effect }}</td>
+            <td>{{ paternal_age_effect }}</td>
         </tr>
     </table>
+   </div>
+   {% endfor %}
+   </div>
    </div>
 </div>
 

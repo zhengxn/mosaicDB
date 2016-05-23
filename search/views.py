@@ -28,8 +28,8 @@ def viewvar(request):
         else:
             filters=[]
             for key in re.split('[\s-]',query):
-                filters.append(Q(disease__icontains=key))
-            vars = Varinfo.objects.filter(Q(gene__icontains=query)|reduce(operator.and_, filters)|Q(method__icontains=query)|Q(entrez__entrez__contains=query)).select_related('entrez')
+                filters.append(Q(indid__disease__icontains=key))
+            vars = Varinfo.objects.filter(Q(gene__icontains=query)|reduce(operator.and_, filters)|Q(indid__mosaic__method__icontains=query)|Q(entrez__entrez__contains=query)).select_related('entrez').distinct()
     return render_to_response('search_results.html',{'variants':vars,'query':query})
 
 def varpage(request,varid):
@@ -101,7 +101,7 @@ def indpage(request,indid):
     return render_to_response('individual.html',{'ind':ind, 'variants':vars,})
 
 def dispage(requst,omim):
-    vars = Varinfo.objects.filter(Q(indid__omim__exact=omim))
+    vars = Varinfo.objects.filter(Q(indid__omim__exact=omim)).distinct()
     disease = indinfo.objects.filter(Q(omim__exact=omim))[0].disease
     return render_to_response('disease.html',{'variants':vars,'disease':disease,'omim':omim})
 

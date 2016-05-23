@@ -2,7 +2,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render_to_response, RequestContext
 from .forms import UploadFileForm
 from django.template.loader import get_template
-from .dbutil import insert, var, pub, ind
+from .dbutil import insert, var, pub, ind, insert
 
 def submit(request):
     if request.method == 'POST':
@@ -13,8 +13,10 @@ def submit(request):
                 message = var(request.FILES['file'])
             elif type == 'pub':
                 message = pub(request.FILES['file'])
+            elif type == 'ind':
+			    message = ind(request.FILES['file'])
             else:
-                message = ind(request.FILES['file'])
+                message = insert(request.FILES['file'])
 #            file=insert(request.FILES['file'])
             return HttpResponse(message)
     else:
